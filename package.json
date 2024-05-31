@@ -1,0 +1,56 @@
+{
+  "name": "@entva/openterms",
+  "description": "Generate legal texts in markdown format",
+  "author": "Max Degterev <max@degterev.me>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": "entva/openterms",
+  "bugs": "https://github.com/entva/openterms/issues",
+  "version": "1.0.0",
+  "keywords": [
+    "legal",
+    "terms",
+    "privacy",
+    "cookies",
+    "gdpr"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "module": "lib/index.esm.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.esm.js",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "scripts": {
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
+    "lint": "eslint ./",
+    "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
+    "prepublishOnly": "npm run lint && npm run build && echo \"\\033[0;32mReady to publish\\033[0m\"",
+    "test": "TZ='GMT' mocha \"./{,!(node_modules)/**}/*.test.js\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-transform-runtime": "^7.24.0",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/register": "^7.23.7",
+    "@entva/browserslist-config": "^1.0.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "eslint": "^8.57.0",
+    "eslint-config-entva-typescript-base": "^1.0.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}

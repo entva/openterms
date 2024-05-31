@@ -1,0 +1,3 @@
+# Browsers that we support. To see current list: `npx browserslist`
+
+extends @entva/browserslist-config
