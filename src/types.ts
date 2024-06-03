@@ -22,7 +22,7 @@ export type GeneratorLanguage =
   | Parameters<WebTermsGenerator>[0];
 
 export type GeneratorOptions =
-  & Parameters<AppPrivacyGenerator>[1]
-  & Parameters<AppTermsGenerator>[1]
-  & Parameters<WebPrivacyGenerator>[1]
-  & Parameters<WebTermsGenerator>[1];
+  | Parameters<AppPrivacyGenerator>[1]
+  | Parameters<AppTermsGenerator>[1]
+  | Parameters<WebPrivacyGenerator>[1]
+  | Parameters<WebTermsGenerator>[1];
