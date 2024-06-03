@@ -17,12 +17,13 @@ Diese Datenschutzerklärung beschreibt, wie Ihre persönlichen Daten gesammelt, 
 
 ## Persönliche Daten, die wir sammeln
 
-Wenn Sie die Website besuchen, sammeln wir automatisch bestimmte Informationen über Ihr Gerät, einschließlich Informationen über Ihren Webbrowser, Ihre IP-Adresse, Ihre Zeitzone und einige der auf Ihrem Gerät installierten Cookies. Darüber hinaus sammeln wir während Sie auf der Website surfen Informationen über die einzelnen Webseiten, die Sie anzeigen, welche Websites oder Suchbegriffe Sie auf die Website verwiesen haben, und Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch gesammelten Informationen als „Geräteinformationen“.
+Wenn Sie die Website besuchen, sammeln wir automatisch bestimmte Informationen über Ihr Gerät, einschließlich Informationen über Ihren Webbrowser, Ihre IP-Adresse, Ihre Zeitzone und einige der Cookies, die auf Ihrem Gerät installiert sind. Darüber hinaus sammeln wir während Sie auf der Website surfen Informationen über die einzelnen Webseiten, die Sie anzeigen, welche Websites oder Suchbegriffe Sie auf die Website verwiesen haben, und Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch gesammelten Informationen als „Geräteinformationen“.
 
 ### Wir sammeln Geräteinformationen${when(!conditions?.shop, ' (oder persönliche Informationen)')} mit den folgenden Technologien:
 
  - „Logdateien“ verfolgen Aktionen, die auf der Website stattfinden, und sammeln Daten einschließlich Ihrer IP-Adresse, Browsertyp, Internetdienstanbieter, Verweis-/Ausstiegsseiten und Datums-/Zeitstempel.
 ${when(conditions?.tracking, `
+ - Datendateien, die auf Ihrem Gerät oder Computer platziert werden und oft eine anonyme eindeutige Kennung enthalten.
  - „Web-Beacons“, „Tags“ und „Pixel“ sind elektronische Dateien, die verwendet werden, um Informationen darüber aufzuzeichnen, wie Sie auf der Website surfen.
 `.trim())}
 
@@ -85,7 +86,7 @@ Die Website ist nicht für Personen unter ${minimumAge} Jahren bestimmt.
 ## Änderungen
 Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um beispielsweise Änderungen unserer Praktiken oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen zu berücksichtigen.
 
-## Kontaktinformationen
+## Kontakt
 
 Für weitere Informationen über unsere Datenschutzpraktiken, wenn Sie Fragen haben oder wenn Sie eine Beschwerde einreichen möchten, kontaktieren Sie uns bitte per E-Mail unter [${email}](mailto:${email}).
 `.trim();

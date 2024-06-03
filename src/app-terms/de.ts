@@ -10,28 +10,28 @@ const generator = ({
   country,
   conditions,
 }: Options) => `
-# Nutzungsbedingungen
+# Allgemeine Geschäftsbedingungen
 *Version ${version}${when(updated, ` vom ${updated}`)}.*
 
 ## Überblick
 
-Diese App wird von ${company} betrieben. Im gesamten App beziehen sich die Begriffe "wir", "uns" und "unser" auf ${company}. ${company} bietet diese App an, einschließlich aller Informationen, Tools und Dienste, die über diese App verfügbar sind, unter der Bedingung Ihrer Zustimmung zu allen hier angegebenen Bedingungen, Richtlinien und Mitteilungen.
+Diese App wird von der ${company} betrieben. Im gesamten App beziehen sich die Begriffe "wir", "uns" und "unser" auf die ${company}. Die ${company} bietet diese App an, einschließlich aller Informationen, Tools und Dienste, die über diese App verfügbar sind, für Sie als Nutzer an, sofern Sie alle hier aufgeführten Bedingungen, Konditionen, Richtlinien und Hinweise akzeptieren.
 
-Durch die Nutzung unserer App${when(conditions?.shop, ' und/oder den Kauf von etwas bei uns')} nutzen Sie unseren "Service" und stimmen zu, an die folgenden Nutzungsbedingungen ("Nutzungsbedingungen", "Bedingungen"), einschließlich aller zusätzlichen Bedingungen und Richtlinien, die hierin oder per Hyperlink genannt sind, gebunden zu sein. Diese Nutzungsbedingungen gelten für alle Benutzer der App, einschließlich, aber nicht beschränkt auf Benutzer, die Browser, Anbieter, Kunden, Händler und/oder Beitragende von Inhalten sind.
+Durch die Nutzung unserer App${when(conditions?.shop, ' und/oder den Kauf von etwas bei uns')} nutzen Sie unseren "Service" und stimmen zu, an die folgenden Geschäftsbedingungen ("AGB", "Bedingungen"), einschließlich aller zusätzlichen Bedingungen und Richtlinien, die hierin oder per Hyperlink genannt sind, gebunden zu sein. Diese AGB gelten für alle Benutzer der App, einschließlich, aber nicht beschränkt auf Benutzer, die Browser, Anbieter, Kunden, Händler und/oder Beitragende von Inhalten sind.
 
-Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie auf unsere App zugreifen oder diese nutzen. Durch den Zugriff auf oder die Nutzung eines Teils der App erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen gebunden zu sein. Wenn Sie nicht allen Bedingungen dieses Vertrags zustimmen, dürfen Sie nicht auf die App zugreifen oder keine Dienste nutzen. Wenn diese Nutzungsbedingungen als Angebot angesehen werden, ist die Annahme ausdrücklich auf diese Nutzungsbedingungen beschränkt.
+Bitte lesen Sie diese AGB sorgfältig durch, bevor Sie auf unsere App zugreifen oder diese nutzen. Durch den Zugriff auf oder die Nutzung eines Teils der App erklären Sie sich damit einverstanden, an diese AGB gebunden zu sein. Wenn Sie nicht allen Bedingungen dieses Vertrags zustimmen, dürfen Sie nicht auf die App zugreifen oder keine Dienste nutzen. Wenn diese AGB als Angebot angesehen werden, ist die Annahme ausdrücklich auf diese AGB beschränkt.
 
-Alle neuen Funktionen oder Tools, die der aktuellen App hinzugefügt werden, unterliegen ebenfalls den Nutzungsbedingungen. Sie können die aktuellste Version der Nutzungsbedingungen jederzeit auf dieser Seite einsehen. Wir behalten uns das Recht vor, Teile dieser Nutzungsbedingungen durch Veröffentlichung von Aktualisierungen und/oder Änderungen an unserer App zu aktualisieren, zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, diese Seite regelmäßig auf Änderungen zu überprüfen. Ihre fortgesetzte Nutzung oder Ihr Zugriff auf die App nach der Veröffentlichung von Änderungen stellt eine Annahme dieser Änderungen dar.
+Alle neuen Funktionen oder Tools, die der aktuellen App hinzugefügt werden, unterliegen ebenfalls den AGB. Sie können die aktuellste Version der AGB jederzeit auf dieser Seite einsehen. Wir behalten uns das Recht vor, Teile dieser AGB durch Veröffentlichung von Aktualisierungen und/oder Änderungen an unserer App zu aktualisieren, zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, diese Seite regelmäßig auf Änderungen zu überprüfen. Ihre fortgesetzte Nutzung oder Ihr Zugriff auf die App nach der Veröffentlichung von Änderungen stellt eine Annahme dieser Änderungen dar.
 
 ## Dienstbedingungen
 
-Durch Zustimmung zu diesen Nutzungsbedingungen erklären Sie, dass Sie mindestens das Volljährigkeitsalter in Ihrem Bundesstaat oder Ihrer Provinz erreicht haben oder dass Sie das Volljährigkeitsalter in Ihrem Bundesstaat oder Ihrer Provinz erreicht haben und uns Ihre Zustimmung gegeben haben, dass Ihre minderjährigen Angehörigen diese App nutzen dürfen.
+Durch Zustimmung zu diesen AGB erklären Sie, dass Sie mindestens das Volljährigkeitsalter in Ihrem Bundesstaat oder Ihrer Provinz erreicht haben oder dass Sie das Volljährigkeitsalter in Ihrem Bundesstaat oder Ihrer Provinz erreicht haben und uns Ihre Zustimmung gegeben haben, dass Ihre minderjährigen Angehörigen diese App nutzen dürfen.
 
 Sie dürfen unsere Produkte oder Dienste nicht für illegale oder unbefugte Zwecke verwenden, noch dürfen Sie bei der Nutzung des Dienstes Gesetze in Ihrer Gerichtsbarkeit verletzen (einschließlich, aber nicht beschränkt auf Urheberrechtsgesetze).
 
 Sie dürfen keine schädliche Software oder irgendeinen Code von zerstörerischer Natur übertragen.
 
-Ein Verstoß gegen eine der Bedingungen führt zu einer sofortigen und nicht erstattungsfähigen Kündigung Ihrer Dienste.
+Ein Verstoß gegen eine der Bedingungen führt zu einer sofortigen Beendigung unserer Dienste an Sie.
 
 ## Allgemeine Bedingungen
 
@@ -85,7 +85,8 @@ Sie erkennen an und stimmen zu, dass wir den Zugang zu solchen Tools "wie besehe
 
 Die Nutzung von Ihnen angebotener optionaler Tools über die App erfolgt vollständig auf eigenes Risiko und nach eigenem Ermessen, und Sie sollten sicherstellen, dass Sie mit den Bedingungen vertraut sind und diesen zustimmen, unter denen die Tools von den jeweiligen Drittanbieter(n) bereitgestellt werden.
 
-Wir können auch in Zukunft neue Dienste und/oder Funktionen über die App anbieten (einschließlich der Veröffentlichung neuer Tools und Ressourcen). Solche neuen Funktionen und/oder Dienste unterliegen ebenfalls diesen Nutzungsbedingungen.
+Wir können auch in Zukunft neue Dienste und/oder Funktionen über die App anbieten (einschließlich der Veröffentlichung neuer Tools und Ressourcen). Solche neuen Funktionen und/oder Dienste unterliegen ebenfalls diesen AGB.
+
 ## Links zu Drittanbieter
 
 Bestimmte Inhalte, Produkte und Dienstleistungen, die über unseren Service verfügbar sind, können Materialien von Drittanbietern enthalten.
@@ -98,7 +99,7 @@ Wir haften nicht für Schäden oder Verletzungen im Zusammenhang mit dem Kauf od
 
 Wenn Sie auf unsere Bitte hin bestimmte spezifische Einsendungen (zum Beispiel Wettbewerbsbeiträge) senden oder ohne Aufforderung von uns kreative Ideen, Vorschläge, Pläne oder andere Materialien, ob online, per E-Mail, per Post oder auf andere Weise (zusammen "Kommentare") senden, stimmen Sie zu, dass wir jederzeit, ohne Einschränkung, Kommentare, die Sie uns zukommen lassen, bearbeiten, kopieren, veröffentlichen, verteilen, übersetzen und anderweitig in jedem Medium verwenden dürfen. Wir sind nicht verpflichtet (1) Kommentare vertraulich zu behandeln; (2) Entschädigung für Kommentare zu zahlen; oder (3) auf Kommentare zu antworten.
 
-Wir können, sind jedoch nicht verpflichtet, Inhalte zu überwachen, zu bearbeiten oder zu entfernen, die unserer alleinigen Meinung nach rechtswidrig, beleidigend, bedrohlich, verleumderisch, diffamierend, pornografisch, obszön oder anderweitig anstößig sind oder Rechte an geistigem Eigentum oder diese Nutzungsbedingungen verletzen.
+Wir können, sind jedoch nicht verpflichtet, Inhalte zu überwachen, zu bearbeiten oder zu entfernen, die unserer alleinigen Meinung nach rechtswidrig, beleidigend, bedrohlich, verleumderisch, diffamierend, pornografisch, obszön oder anderweitig anstößig sind oder Rechte an geistigem Eigentum oder diese AGB verletzen.
 
 Sie stimmen zu, dass Ihre Kommentare keine Rechte Dritter verletzen werden, einschließlich Urheber-, Marken-, Privatsphäre-, Persönlichkeits- oder sonstiger persönlicher oder Eigentumsrechte. Sie stimmen weiterhin zu, dass Ihre Kommentare keine verleumderischen oder anderweitig rechtswidrigen, missbräuchlichen oder obszönen Materialien enthalten werden, oder Computerviren oder andere Malware enthalten, die die Funktionsweise des Dienstes oder einer damit verbundenen App in irgendeiner Weise beeinträchtigen könnten. Sie dürfen keine falsche E-Mail-Adresse verwenden, sich als jemand anderes ausgeben oder uns oder Drittanbieter in Bezug auf die Herkunft von Kommentaren irreführen. Sie sind allein verantwortlich für die von Ihnen gemachten Kommentare und deren Richtigkeit. Wir übernehmen keine Verantwortung und haften nicht für Kommentare, die von Ihnen oder einem Dritten veröffentlicht wurden.
 
@@ -114,7 +115,7 @@ Wir übernehmen keine Verpflichtung, Informationen im Service oder auf einer zug
 
 ## Verbotene Verwendungen
 
-Zusätzlich zu anderen Verboten gemäß den Nutzungsbedingungen ist es Ihnen untersagt, die App oder deren Inhalte zu verwenden: (a) für jegliche rechtswidrige Zwecke; (b) andere dazu aufzufordern, rechtswidrige Handlungen durchzuführen oder daran teilzunehmen; (c) gegen internationale, bundesstaatliche, landesrechtliche oder kommunale Vorschriften, Regeln, Gesetze oder örtliche Verordnungen zu verstoßen; (d) unsere geistigen Eigentumsrechte oder die geistigen Eigentumsrechte anderer zu verletzen; (e) zu belästigen, missbrauchen, beleidigen, schaden, verleumden, verunglimpfen, einschüchtern oder diskriminieren aufgrund von Geschlecht, sexueller Orientierung, Religion, Ethnizität, Rasse, Alter, nationaler Herkunft oder Behinderung; (f) falsche oder irreführende Informationen bereitzustellen; (g) Viren oder andere Arten von bösartigem Code hochzuladen oder zu übertragen, die auf irgendeine Weise die Funktionalität oder den Betrieb des Dienstes oder einer zugehörigen App, anderer Apps oder des Internets beeinträchtigen könnten; (h) personenbezogene Daten anderer zu sammeln oder zu verfolgen; (i) Spam zu versenden, zu fischen, zu pharmen, vorzutäuschen, zu spinnen, zu crawlen oder zu scrapen; (j) für einen obszönen oder unmoralischen Zweck; oder (k) die Sicherheitsfunktionen des Dienstes oder einer zugehörigen App, anderer Apps oder des Internets zu umgehen oder zu beeinträchtigen. Wir behalten uns das Recht vor, Ihre Nutzung des Dienstes oder einer zugehörigen App zu beenden, wenn Sie gegen eine der verbotenen Verwendungen verstoßen.
+Zusätzlich zu anderen Verboten gemäß den AGB ist es Ihnen untersagt, die App oder deren Inhalte zu verwenden: (a) für jegliche rechtswidrige Zwecke; (b) andere dazu aufzufordern, rechtswidrige Handlungen durchzuführen oder daran teilzunehmen; (c) gegen internationale, bundesstaatliche, landesrechtliche oder kommunale Vorschriften, Regeln, Gesetze oder örtliche Verordnungen zu verstoßen; (d) unsere geistigen Eigentumsrechte oder die geistigen Eigentumsrechte anderer zu verletzen; (e) zu belästigen, missbrauchen, beleidigen, schaden, verleumden, verunglimpfen, einschüchtern oder diskriminieren aufgrund von Geschlecht, sexueller Orientierung, Religion, Ethnizität, Rasse, Alter, nationaler Herkunft oder Behinderung; (f) falsche oder irreführende Informationen bereitzustellen; (g) Viren oder andere Arten von bösartigem Code hochzuladen oder zu übertragen, die auf irgendeine Weise die Funktionalität oder den Betrieb des Dienstes oder einer zugehörigen App, anderer Apps oder des Internets beeinträchtigen könnten; (h) personenbezogene Daten anderer zu sammeln oder zu verfolgen; (i) Spam zu versenden, zu fischen, zu pharmen, vorzutäuschen, zu spinnen, zu crawlen oder zu scrapen; (j) für einen obszönen oder unmoralischen Zweck; oder (k) die Sicherheitsfunktionen des Dienstes oder einer zugehörigen App, anderer Apps oder des Internets zu umgehen oder zu beeinträchtigen. Wir behalten uns das Recht vor, Ihre Nutzung des Dienstes oder einer zugehörigen App zu beenden, wenn Sie gegen eine der verbotenen Verwendungen verstoßen.
 
 ## Haftungsausschluss für Garantien; Haftungsbeschränkung
 
@@ -126,50 +127,50 @@ Sie erklären sich damit einverstanden, dass wir von Zeit zu Zeit den Dienst fü
 
 Sie erklären sich ausdrücklich damit einverstanden, dass Ihre Nutzung des Dienstes oder die Unfähigkeit, den Dienst zu nutzen, auf Ihr alleiniges Risiko geht. Der Dienst und alle Produkte und Dienstleistungen, die Ihnen über den Dienst geliefert werden, werden (sofern nicht ausdrücklich von uns angegeben) "wie besehen" und "wie verfügbar" für Ihre Nutzung bereitgestellt, ohne jegliche Darstellung, Gewährleistung oder Bedingung, sei es ausdrücklich oder stillschweigend, einschließlich aller stillschweigenden Gewährleistungen oder Bedingungen der Marktgängigkeit, der handelsüblichen Qualität, der Eignung für einen bestimmten Zweck, der Haltbarkeit, des Titels und der Nichtverletzung.
 
-In keinem Fall haften ${company}, unsere Direktoren, leitenden Angestellten, Mitarbeiter, Partner, Vertreter, Auftragnehmer, Praktikanten, Lieferanten, Dienstleister oder Lizenzgeber für Verletzungen, Verluste, Ansprüche oder direkte, indirekte, zufällige, strafrechtliche, spezielle oder Folgeschäden jeglicher Art, einschließlich, aber nicht beschränkt auf entgangenen Gewinn, entgangene Einnahmen, entgangene Einsparungen, Verlust von Daten, Ersatzkosten oder ähnliche Schäden, unabhängig davon, ob sie auf Vertrag, unerlaubter Handlung (einschließlich Fahrlässigkeit), verschuldensunabhängiger Haftung oder anderweitig beruhen, die sich aus Ihrer Nutzung des Dienstes oder aus Produkten ergeben, die mithilfe des Dienstes erworben wurden, oder aus einem anderen Anspruch, der in irgendeiner Weise mit Ihrer Nutzung des Dienstes oder eines Produkts zusammenhängt, einschließlich, aber nicht beschränkt auf, Fehler oder Auslassungen in Inhalten oder Verlust oder Schäden jeglicher Art,
+In keinem Fall haften die ${company}, unsere Direktoren, leitenden Angestellten, Mitarbeiter, Partner, Vertreter, Auftragnehmer, Praktikanten, Lieferanten, Dienstleister oder Lizenzgeber für Verletzungen, Verluste, Ansprüche oder direkte, indirekte, zufällige, strafrechtliche, spezielle oder Folgeschäden jeglicher Art, einschließlich, aber nicht beschränkt auf entgangenen Gewinn, entgangene Einnahmen, entgangene Einsparungen, Verlust von Daten, Ersatzkosten oder ähnliche Schäden, unabhängig davon, ob sie auf Vertrag, unerlaubter Handlung (einschließlich Fahrlässigkeit), verschuldensunabhängiger Haftung oder anderweitig beruhen, die sich aus Ihrer Nutzung des Dienstes oder aus Produkten ergeben, die mithilfe des Dienstes erworben wurden, oder aus einem anderen Anspruch, der in irgendeiner Weise mit Ihrer Nutzung des Dienstes oder eines Produkts zusammenhängt, einschließlich, aber nicht beschränkt auf, Fehler oder Auslassungen in Inhalten oder Verlust oder Schäden jeglicher Art,
 
 ## Haftungsfreistellung
 
-Sie erklären sich damit einverstanden, ${company} und unser Mutterunternehmen, Tochtergesellschaften, verbundene Unternehmen, Partner, leitende Angestellte, Direktoren, Vertreter, Auftragnehmer, Lizenzgeber, Dienstleister, Subunternehmer, Lieferanten, Praktikanten und Mitarbeiter von jeglichen Ansprüchen oder Forderungen, einschließlich angemessener Anwaltskosten, schadlos zu halten, die von Dritten aufgrund Ihrer Verletzung dieser Nutzungsbedingungen oder der darin durch Bezugnahme einbezogenen Dokumente oder Ihrer Verletzung von Gesetzen oder Rechten Dritter geltend gemacht werden.
+Sie erklären sich damit einverstanden, die ${company} und unser Mutterunternehmen, Tochtergesellschaften, verbundene Unternehmen, Partner, leitende Angestellte, Direktoren, Vertreter, Auftragnehmer, Lizenzgeber, Dienstleister, Subunternehmer, Lieferanten, Praktikanten und Mitarbeiter von jeglichen Ansprüchen oder Forderungen, einschließlich angemessener Anwaltskosten, schadlos zu halten, die von Dritten aufgrund Ihrer Verletzung dieser AGB oder der darin durch Bezugnahme einbezogenen Dokumente oder Ihrer Verletzung von Gesetzen oder Rechten Dritter geltend gemacht werden.
 
 ## Teilunwirksamkeit
 
-Sollte eine Bestimmung dieser Nutzungsbedingungen für ungültig, nichtig oder nicht durchsetzbar befunden werden, so bleibt diese Bestimmung dennoch in dem gesetzlich zulässigen Umfang durchsetzbar, und der unwirksame Teil wird von diesen Nutzungsbedingungen abgetrennt; diese Feststellung beeinträchtigt nicht die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen.
+Sollte eine Bestimmung dieser AGB für ungültig, nichtig oder nicht durchsetzbar befunden werden, so bleibt diese Bestimmung dennoch in dem gesetzlich zulässigen Umfang durchsetzbar, und der unwirksame Teil wird von diesen AGB abgetrennt; diese Feststellung beeinträchtigt nicht die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen.
 
 ## Kündigung
 
 Die Verpflichtungen und Haftungen der Parteien, die vor dem Kündigungsdatum entstanden sind, bleiben für alle Zwecke auch nach Beendigung dieser Vereinbarung bestehen.
 
-Diese Nutzungsbedingungen sind wirksam, sofern sie nicht von Ihnen oder uns gekündigt werden. Sie können diese Nutzungsbedingungen jederzeit kündigen, indem Sie uns mitteilen, dass Sie unsere Dienste nicht mehr nutzen möchten, oder wenn Sie aufhören, unsere App zu verwenden.
+Diese AGB sind wirksam, sofern sie nicht von Ihnen oder uns gekündigt werden. Sie können diese AGB jederzeit kündigen, indem Sie uns mitteilen, dass Sie unsere Dienste nicht mehr nutzen möchten, oder wenn Sie aufhören, unsere App zu verwenden.
 
-Falls Sie unserer alleinigen Einschätzung nach gegen eine Bestimmung dieser Nutzungsbedingungen verstoßen haben oder wir den Verdacht haben, dass Sie gegen eine Bestimmung dieser Nutzungsbedingungen verstoßen haben, können wir diese Vereinbarung jederzeit ohne Vorankündigung kündigen. In diesem Fall bleiben Sie für alle bis zum Kündigungsdatum fälligen Beträge haftbar, und/oder wir können Ihnen entsprechend den Zugriff auf unsere Dienste (oder einen Teil davon) verweigern.
+Falls Sie unserer alleinigen Einschätzung nach gegen eine Bestimmung dieser AGB verstoßen haben oder wir den Verdacht haben, dass Sie gegen eine Bestimmung dieser AGB verstoßen haben, können wir diese Vereinbarung jederzeit ohne Vorankündigung kündigen. In diesem Fall bleiben Sie für alle bis zum Kündigungsdatum fälligen Beträge haftbar, und/oder wir können Ihnen entsprechend den Zugriff auf unsere Dienste (oder einen Teil davon) verweigern.
 
 ## Gesamte Vereinbarung
 
-Die Unterlassung von uns, ein Recht oder eine Bestimmung dieser Nutzungsbedingungen auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar.
+Die Unterlassung von uns, ein Recht oder eine Bestimmung dieser AGB auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar.
 
-Diese Nutzungsbedingungen und alle von uns auf dieser App oder im Zusammenhang mit dem Service veröffentlichten Richtlinien oder Betriebsregeln stellen die gesamte Vereinbarung und das Verständnis zwischen Ihnen und uns dar und regeln Ihre Nutzung des Dienstes, wobei sie alle vorherigen oder gleichzeitigen Vereinbarungen, Mitteilungen und Vorschläge, ob mündlich oder schriftlich, zwischen Ihnen und uns (einschließlich, aber nicht beschränkt auf frühere Versionen der Nutzungsbedingungen) ersetzen.
+Diese AGB und alle von uns auf dieser App oder im Zusammenhang mit dem Service veröffentlichten Richtlinien oder Betriebsregeln stellen die gesamte Vereinbarung und das Verständnis zwischen Ihnen und uns dar und regeln Ihre Nutzung des Dienstes, wobei sie alle vorherigen oder gleichzeitigen Vereinbarungen, Mitteilungen und Vorschläge, ob mündlich oder schriftlich, zwischen Ihnen und uns (einschließlich, aber nicht beschränkt auf frühere Versionen der AGB) ersetzen.
 
-Etwaige Unklarheiten bei der Auslegung dieser Nutzungsbedingungen sind nicht zu Lasten der verfassenden Partei auszulegen.
+Etwaige Unklarheiten bei der Auslegung dieser AGB sind nicht zu Lasten der verfassenden Partei auszulegen.
 ${when(country, `
 ## Rechtswahl
 
-Diese Nutzungsbedingungen und alle separaten Vereinbarungen, durch die wir Ihnen Dienstleistungen anbieten, unterliegen den Gesetzen von ${country} und sind entsprechend auszulegen.
+Diese AGB und alle separaten Vereinbarungen, durch die wir Ihnen Dienstleistungen anbieten, unterliegen den Gesetzen von ${country} und sind entsprechend auszulegen.
 `)}
-## Änderungen der Nutzungsbedingungen
+## Änderungen der AGB
 
-Sie können jederzeit die aktuellste Version der Nutzungsbedingungen auf dieser Seite einsehen.
+Sie können jederzeit die aktuellste Version der AGB auf dieser Seite einsehen.
 
-Wir behalten uns das Recht vor, nach unserem alleinigen Ermessen jeden Teil dieser Nutzungsbedingungen durch Veröffentlichung von Updates und Änderungen auf unserer App zu aktualisieren, zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, unsere App regelmäßig auf Änderungen zu überprüfen. Ihre fortgesetzte Nutzung oder Ihr Zugriff auf unsere App oder den Service nach der Veröffentlichung von Änderungen an diesen Nutzungsbedingungen stellt die Annahme dieser Änderungen dar.
+Wir behalten uns das Recht vor, nach unserem alleinigen Ermessen jeden Teil dieser AGB durch Veröffentlichung von Updates und Änderungen auf unserer App zu aktualisieren, zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, unsere App regelmäßig auf Änderungen zu überprüfen. Ihre fortgesetzte Nutzung oder Ihr Zugriff auf unsere App oder den Service nach der Veröffentlichung von Änderungen an diesen AGB stellt die Annahme dieser Änderungen dar.
 
 ## Lizenz
-Sofern nicht anders angegeben, besitzen ${company} und/oder seine Lizenzgeber die geistigen Eigentumsrechte an allen Inhalten der App. Alle geistigen Eigentumsrechte bleiben vorbehalten. Sie dürfen diese von der App für Ihre persönliche Nutzung abrufen, unterliegen jedoch den in diesen Geschäftsbedingungen festgelegten Einschränkungen.
+Sofern nicht anders angegeben, besitzen die ${company} und/oder seine Lizenzgeber die geistigen Eigentumsrechte an allen Inhalten der App. Alle geistigen Eigentumsrechte bleiben vorbehalten. Sie dürfen diese von der App für Ihre persönliche Nutzung abrufen, unterliegen jedoch den in diesen Geschäftsbedingungen festgelegten Einschränkungen.
 
 Sie dürfen nicht:
- - Material von ${appName} und anderen Diensten von ${company} erneut veröffentlichen
- - Material von ${appName} und anderen Diensten von ${company} verkaufen, vermieten oder unterlizenzieren
- - Material von ${appName} und anderen Diensten von ${company} vervielfältigen, duplizieren oder kopieren
- - Inhalte von ${appName} und anderen Diensten von ${company} neu verteilen
+ - Material von ${appName} und anderen Diensten von der ${company} erneut veröffentlichen
+ - Material von ${appName} und anderen Diensten von der ${company} verkaufen, vermieten oder unterlizenzieren
+ - Material von ${appName} und anderen Diensten von der ${company} vervielfältigen, duplizieren oder kopieren
+ - Inhalte von ${appName} und anderen Diensten von der ${company} neu verteilen
 
 ## Verlinkung auf unsere Inhalte
 Folgende Organisationen dürfen ohne vorherige schriftliche Genehmigung auf unsere App verlinken:
@@ -191,7 +192,7 @@ Wir können andere Linkanfragen von folgenden Arten von Organisationen prüfen u
  - Wirtschaftsprüfungs-, Rechts- und Beratungsunternehmen
  - Bildungseinrichtungen und Handelsverbände
 
-Wir werden Linkanfragen von diesen Organisationen genehmigen, wenn wir entscheiden, dass: (a) der Link uns nicht negativ darstellt oder unseren akkreditierten Unternehmen schadet; (b) die Organisation keine negativen Aufzeichnungen bei uns hat; (c) der Nutzen für uns aus der Sichtbarkeit des Hyperlinks den Mangel an ${company} ausgleicht; und (d) der Link im Kontext allgemeiner Ressourceninformationen steht.
+Wir werden Linkanfragen von diesen Organisationen genehmigen, wenn wir entscheiden, dass: (a) der Link uns nicht negativ darstellt oder unseren akkreditierten Unternehmen schadet; (b) die Organisation keine negativen Aufzeichnungen bei uns hat; (c) der Nutzen für uns aus der Sichtbarkeit des Hyperlinks den Mangel an die ${company} ausgleicht; und (d) der Link im Kontext allgemeiner Ressourceninformationen steht.
 
 Diese Organisationen dürfen auf unsere App verlinken, solange der Link: (a) in keiner Weise irreführend ist; (b) nicht fälschlicherweise eine Förderung, Genehmigung oder Billigung der verlinkenden Partei und ihrer Produkte und/oder Dienstleistungen impliziert; und (c) in den Kontext der Website und/oder App der verlinkenden Partei passt.
 
@@ -202,11 +203,11 @@ Genehmigte Organisationen dürfen auf unsere App wie folgt verlinken:
  - Durch Verwendung unseres Dienstnamens
  - Durch Verwendung jeder anderen Beschreibung unserer App, auf die verlinkt wird, die im Kontext und im Format des Inhalts auf der Website der verlinkenden Partei Sinn macht.
 
-Keine Verwendung des Logos oder anderer Grafiken von ${company} ist ohne eine Markenlizenzvereinbarung gestattet.
+Keine Verwendung des Logos oder anderer Grafiken von der ${company} ist ohne eine Markenlizenzvereinbarung gestattet.
 
 ## Kontaktinformationen
 
-Fragen zu den Nutzungsbedingungen senden Sie bitte an uns unter [${email}](mailto:${email}).
+Fragen zu den AGB senden Sie bitte an uns unter [${email}](mailto:${email}).
 `.trim();
 
 export default generator;

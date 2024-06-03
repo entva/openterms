@@ -17,7 +17,7 @@ Diese Datenschutzerklärung beschreibt, wie Ihre persönlichen Informationen ges
 
 ## Persönliche Informationen, die wir sammeln
 
-Wenn Sie die App nutzen, sammeln wir automatisch bestimmte Informationen über Ihr Gerät, einschließlich Informationen über Ihr Betriebssystem, Ihre IP-Adresse, Ihre Zeitzone und einige der auf Ihrem Gerät installierten Tracking-Software. Zusätzlich sammeln wir, während Sie die App nutzen, Informationen über die individuellen Ansichten, die Sie öffnen, welche Websites oder Suchbegriffe Sie zur App verwiesen haben, und Informationen darüber, wie Sie mit der App interagieren. Wir bezeichnen diese automatisch gesammelten Informationen als „Geräteinformationen“.
+Wenn Sie die App nutzen, sammeln wir automatisch bestimmte Informationen über Ihr Gerät, einschließlich Informationen über Ihr Betriebssystem, Ihre IP-Adresse, Ihre Zeitzone und einige der Cookies, die auf Ihrem Gerät installiert sind. Zusätzlich sammeln wir, während Sie die App nutzen, Informationen über die individuellen Ansichten, die Sie öffnen, welche Websites oder Suchbegriffe Sie zur App verwiesen haben, und Informationen darüber, wie Sie mit der App interagieren. Wir bezeichnen diese automatisch gesammelten Informationen als „Geräteinformationen“.
 
 ### Wir sammeln Geräteinformationen${when(!conditions?.shop, ' (oder persönliche Informationen)')} mit den folgenden Technologien:
 
@@ -85,7 +85,7 @@ Die App ist nicht für Personen unter ${minimumAge} Jahren bestimmt.
 ## Änderungen
 Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um zum Beispiel Änderungen unserer Praktiken oder aus anderen operativen, rechtlichen oder regulatorischen Gründen zu berücksichtigen.
 
-## Kontaktinformationen
+## Kontakt
 
 Für weitere Informationen über unsere Datenschutzpraktiken, wenn Sie Fragen haben oder wenn Sie eine Beschwerde einreichen möchten, kontaktieren Sie uns bitte per E-Mail unter [${email}](mailto:${email}).
 `.trim();
