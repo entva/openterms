@@ -47,7 +47,7 @@ We share your Personal Information with third parties to help us use your Person
 
 We may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
 ${when(conditions?.retargeting, `
-## Behavioural advertising
+## Behavioral advertising
 As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
 
 You can opt out of targeted advertising by:
