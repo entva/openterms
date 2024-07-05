@@ -6,12 +6,13 @@
   "readmeFilename": "README.md",
   "repository": "entva/openterms",
   "bugs": "https://github.com/entva/openterms/issues",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "type": "module",
   "keywords": [
     "legal",
     "terms",
     "privacy",
+    "imprint",
     "cookies",
     "gdpr"
   ],
@@ -51,6 +52,6 @@
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.6.3",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   }
 }

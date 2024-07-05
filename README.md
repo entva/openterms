@@ -5,13 +5,14 @@ Generate legal texts in markdown format. Lightweight, 0 dependencies. A good sta
 
 # Usage:
 
-```javascript
+```typescript
 import { appPrivacy, appTerms, webPrivacy, webTerms } from '@entva/openterms';
 
 const options = {
   company: 'Example, Inc.',
   email: 'contact@example.com',
-  website: 'https://example.com'
+  website: 'https://example.com',
+  address: '123 Example Str., 31337, State, Country'
 };
 
 // Currently supports 'en' and 'de' locales
@@ -21,7 +22,7 @@ const markdown = webTerms('en', options);
 ## Options
 
 ### appPrivacy
-```javascript
+```typescript
 export type Options = {
   company: string,
   email: string,
@@ -39,7 +40,7 @@ export type Options = {
 ```
 
 ### appTerms
-```javascript
+```typescript
 export type Options = {
   company: string,
   email: string,
@@ -54,7 +55,7 @@ export type Options = {
 ```
 
 ### webPrivacy
-```javascript
+```typescript
 export type Options = {
   company: string,
   email: string,
@@ -72,7 +73,7 @@ export type Options = {
 ```
 
 ### webTerms
-```javascript
+```typescript
 export type Options = {
   company: string,
   email: string,
@@ -86,12 +87,22 @@ export type Options = {
 };
 ```
 
+### imprint
+```typescript
+export type Options = {
+  email: string,
+  address: string,
+  phone?: string,
+  vat?: string,
+};
+```
+
 ## Formatting output
 
 ### As plain text
 
 You can use [remove-markdown](https://github.com/stiang/remove-markdown) module to clean up any markup:
-```javascript
+```typescript
 import removeMd from 'remove-markdown';
 
 const text = removeMd(generator('en', options));
@@ -100,7 +111,7 @@ const text = removeMd(generator('en', options));
 ### As HTML
 
 You can use [marked](https://github.com/markedjs/marked) to render HTML:
-```javascript
+```typescript
 import marked from 'marked';
 
 const text = marked(generator('en', options));
@@ -109,7 +120,7 @@ const text = marked(generator('en', options));
 ### As a React component
 
 You can use [react-markdown](https://github.com/rexxars/react-markdown) to avoid dangerouslySetInnerHTML:
-```javascript
+```tsx
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
