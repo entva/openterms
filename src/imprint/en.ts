@@ -19,13 +19,14 @@ Our product contains links to external websites of third parties, on whose conte
 
 ## Licenses
 
-Some of the images used on this website are provided by [Unsplash](https://unsplash.com). These images are royalty-free, a source reference is not required.
+The images used on this website are royalty-free, a source reference is not required.
 
 ## Contact information
-**Email**: [${email}](mailto:${email})
-**Mail:** ${address}
-${when(phone, `**Phone**: ${phone}`)}
-${when(vat, `**VAT ID**: ${vat}`)}
+
+- **Email**: [${email}](mailto:${email})
+- **Mail:** ${address}
+${when(phone, `- **Phone**: ${phone}`)}
+${when(vat, `- **VAT ID**: ${vat}`)}
 `.trim();
 
 export default generator;

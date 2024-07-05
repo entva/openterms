@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "entva/openterms",
   "bugs": "https://github.com/entva/openterms/issues",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "type": "module",
   "keywords": [
     "legal",

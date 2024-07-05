@@ -19,13 +19,14 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 
 ## Lizenzen
 
-Einige der auf dieser Website verwendeten Bilder werden von [Unsplash](https://unsplash.com) zur Verfügung gestellt. Diese Bilder sind lizenzfrei, eine Quellenangabe ist nicht erforderlich.
+Auf dieser Website verwendeten Bilder sind lizenzfrei, eine Quellenangabe ist nicht erforderlich.
 
 ## Anbieter der Webseite
-**E-Mail**: [${email}](mailto:${email})
-**Post:** ${address}
-${when(phone, `**Telefon**: ${phone}`)}
-${when(vat, `**USt.-Id**: ${vat}`)}
+
+- **E-Mail**: [${email}](mailto:${email})
+- **Post:** ${address}
+${when(phone, `- **Telefon**: ${phone}`)}
+${when(vat, `- **USt.-Id**: ${vat}`)}
 `.trim();
 
 export default generator;
