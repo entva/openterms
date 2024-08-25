@@ -7,5 +7,6 @@ export type Options = {
   country?: string,
   conditions?: {
     shop?: boolean,
+    registration?: boolean,
   },
 };

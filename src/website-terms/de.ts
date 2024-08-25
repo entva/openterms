@@ -15,7 +15,7 @@ const generator = ({
 
 ## Übersicht
 
-Diese Website wird von der ${company} betrieben. Auf der gesamten Website beziehen sich die Begriffe "wir", "uns" und "unser" auf die ${company}. Die ${company} bietet diese Website, einschließlich aller Informationen, Tools und Dienste, die auf dieser Website verfügbar sind, für Sie als Nutzer an, sofern Sie alle hier aufgeführten Bedingungen, Konditionen, Richtlinien und Hinweise akzeptieren.
+Diese Website (Platform, Service) wird von der ${company} betrieben. Auf der gesamten Website beziehen sich die Begriffe "wir", "uns" und "unser" auf die ${company}. Die ${company} bietet diese Website, einschließlich aller Informationen, Tools und Dienste, die auf dieser Website verfügbar sind, für Sie als Nutzer an, sofern Sie alle hier aufgeführten Bedingungen, Konditionen, Richtlinien und Hinweise akzeptieren.
 
 Durch den Besuch unserer Website${when(conditions?.shop, ' und/oder den Kauf von etwas bei uns')} nutzen Sie unseren "Service" und stimmen zu, durch die folgenden Bedingungen und Konditionen ("AGB", "Bedingungen") gebunden zu sein, einschließlich der zusätzlichen Bedingungen und Konditionen und Richtlinien, auf die hier Bezug genommen wird und/oder die per Hyperlink verfügbar sind. Diese AGB gelten für alle Benutzer der Website, einschließlich, ohne Einschränkung, Benutzer, die Browser, Anbieter, Kunden, Händler und/oder Beitragende von Inhalten sind.
 
@@ -27,11 +27,9 @@ Alle neuen Funktionen oder Tools, die der aktuellen Website hinzugefügt werden,
 
 Durch die Zustimmung zu diesen AGB erklären Sie, dass Sie mindestens das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben oder dass Sie das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben und uns Ihre Zustimmung gegeben haben, damit Minderjährige in Ihrem Haushalt diese Website nutzen können.
 
-Sie dürfen unsere Produkte oder Dienstleistungen nicht für einen illegalen oder unbefugten Zweck verwenden, noch dürfen Sie, bei der Nutzung des Dienstes, gegen Gesetze in Ihrer Gerichtsbarkeit verstoßen (einschließlich, aber nicht beschränkt auf Urheberrechtsbestimmungen).
-
-Sie dürfen keine schädliche Software oder einen Code von zerstörerischer Natur übertragen.
-
-Ein Verstoß gegen eine der Bedingungen führt zu einer sofortigen Beendigung unserer Dienste an Sie.
+Sie dürfen unsere Produkte oder Dienstleistungen nicht für illegale oder nicht autorisierte Zwecke verwenden, und Sie dürfen bei der Nutzung des Dienstes keine Gesetze in Ihrer Gerichtsbarkeit verletzen (einschließlich, aber nicht beschränkt auf Urheberrechtsgesetze).
+Sie dürfen keine schädliche Software oder zerstörerischen Code übertragen.
+Ein Verstoß gegen eine der Bedingungen führt zur sofortigen Kündigung Ihrer Dienste ohne Rückerstattung.
 
 ## Allgemeine Bedingungen
 
@@ -41,13 +39,18 @@ Sie verstehen, dass Ihre Inhalte${when(conditions?.shop, ' (ohne Kreditkarteninf
 
 Sie erklären sich damit einverstanden, keinen Teil des Dienstes, die Nutzung des Dienstes oder den Zugriff auf den Dienst oder jeglichen Kontakt auf der Website, über den der Service bereitgestellt wird, ohne ausdrückliche schriftliche Genehmigung durch uns zu reproduzieren, zu duplizieren, zu kopieren, zu verkaufen, weiterzuverkaufen oder zu nutzen.
 
-Die in dieser Vereinbarung verwendeten Überschriften dienen nur der Bequemlichkeit und beeinträchtigen oder berühren diese Bedingungen nicht anderweitig.
-
 ## Richtigkeit, Vollständigkeit und Aktualität der Informationen
 
-Wir übernehmen keine Verantwortung dafür, dass Informationen auf dieser Website oder über unseren Service nicht korrekt, vollständig oder aktuell sind. Das Material auf dieser Website oder über unsere Dienste wird nur zu allgemeinen Informationszwecken bereitgestellt und sollte nicht als alleinige Grundlage für Entscheidungen herangezogen oder verwendet werden, ohne primäre, genauere, vollständigere oder zeitgerechtere Informationsquellen zu konsultieren. Jedes Vertrauen in das Material auf dieser Website oder über unsere Dienste erfolgt auf Ihr eigenes Risiko.
+Wir sind nicht verantwortlich, wenn die auf dieser Website oder durch unsere Dienste bereitgestellten Informationen nicht genau, vollständig oder aktuell sind. Das Material auf dieser Website oder über unsere Dienste dient nur allgemeinen Informationszwecken und sollte nicht als alleinige Grundlage für Entscheidungen verwendet werden, ohne primäre, genauere, vollständigere oder aktuellere Informationsquellen zu konsultieren. Jede Verwendung des Materials auf dieser Website oder durch unsere Dienste erfolgt auf Ihr eigenes Risiko.
 
-Diese Website kann bestimmte historische Informationen enthalten. Historische Informationen sind notwendigerweise nicht aktuell und werden nur zu Ihrer Referenz bereitgestellt. Wir behalten uns das Recht vor, den Inhalt dieser Website jederzeit zu ändern, aber wir haben keine Verpflichtung, Informationen auf unserer Website zu aktualisieren. Sie erklären sich damit einverstanden, dass es Ihre Verantwortung ist, Änderungen auf unserer Website zu überwachen.
+Der Kunde ist allein verantwortlich für den Inhalt und die Rechtmäßigkeit des Inhalts, den er veröffentlicht. Der Kunde garantiert, dass er alle anwendbaren rechtlichen Standards, insbesondere Persönlichkeitsrechte, Urheberrechte und Datenschutzgesetze, berücksichtigt und die Plattform nicht für rechtswidrige Handlungen verwendet, einschließlich, aber nicht beschränkt auf die Erstellung, Nutzung oder Verbreitung von Schadsoftware bei der Nutzung der Plattform.
+
+${when(conditions?.shop, `Der Kunde muss seine Anmeldedaten für die Plattform an einem sicheren Ort aufbewahren und darf sie nur autorisierten Mitarbeitern zur Verfügung stellen. Der Kunde verpflichtet sich, alle Sicherheitsmaßnahmen, funktionalen und sonstigen Beschränkungen der Plattform einzuhalten. Insbesondere darf der Kunde keine Schutz- oder Authentifizierungsmechanismen entfernen, umgehen, deaktivieren oder anderweitig umgehen oder die Plattform für andere Zwecke als die in dieser Vereinbarung vorgesehenen oder ausdrücklich festgelegten verwenden. Darüber hinaus ist es dem Kunden nicht gestattet, die Plattform Dritten zur Verfügung zu stellen und/oder über den erworbenen Tarifplan hinauszugehen.
+
+Sie erklären sich damit einverstanden, aktuelle, vollständige und genaue Kauf- und Kontoinformationen für alle auf unserer Website getätigten Käufe bereitzustellen. Sie erklären sich damit einverstanden, Ihr Konto und andere Informationen, einschließlich Ihrer E-Mail-Adresse und Kreditkartennummern sowie Ablaufdaten, unverzüglich zu aktualisieren, damit wir Ihre Transaktionen abschließen und Sie bei Bedarf kontaktieren können.
+`).trim()}
+
+Der Kunde muss regelmäßig und auf eigenes Risiko Sicherungskopien seiner Daten erstellen, sowohl auf seinen lokalen Systemen als auch auf der von ${company} bereitgestellten Plattform.
 
 ## Änderungen am Service
 
@@ -55,15 +58,41 @@ ${when(conditions?.shop, 'Preise für unsere Produkte können sich jederzeit ohn
 
 Wir haften Ihnen oder Dritten nicht für Änderungen${when(conditions?.shop, ', Preisänderungen')}, Aussetzungen oder Einstellungen des Dienstes.
 
+Die durchschnittliche Verfügbarkeit der Plattform beträgt 99 % pro Jahr. Dies schließt notwendige geplante Wartungsarbeiten sowie Störungen außerhalb unserer Kontrolle aus, insbesondere Ereignisse höherer Gewalt. Soweit möglich, wird die Website den Kunden im Voraus in Textform (z.B. per E-Mail) über geplante Wartungsarbeiten informieren. Wir behalten uns jedoch ausdrücklich das Recht vor, außerplanmäßige Wartungsarbeiten durchzuführen, wenn dies notwendig ist, insbesondere wenn es für die Datensicherheit und den Betrieb erforderlich ist.
+
+Buildery kann die Funktionalität der Plattform jederzeit in einem für den Kunden zumutbaren Umfang ändern. Eine Änderung ist insbesondere dann zumutbar, wenn sie aus einem berechtigten Grund erforderlich wird, z.B. aufgrund von Ausfällen der von Unterauftragnehmern bereitgestellten Dienste oder aus Sicherheitsgründen, und die in der Leistungsbeschreibung definierte Betriebseffizienz im Wesentlichen aufrechterhalten wird, ebenso wie unsere Kernverpflichtungen.
+
 ${when(conditions?.shop, `
 
 ## Produkte oder Dienstleistungen
 
-Bestimmte Produkte oder Dienstleistungen können ausschließlich online über die Website erhältlich sein. Diese Produkte oder Dienstleistungen können begrenzte Mengen haben und unterliegen nur gemäß unserer Rückgaberichtlinie einer Rückgabe oder Umtausch.
+Bestimmte Produkte oder Dienstleistungen können ausschließlich online über die Website erhältlich sein.
 
 Wir behalten uns das Recht vor, den Verkauf unserer Produkte oder Dienstleistungen auf jede Person, geografische Region oder Gerichtsbarkeit zu beschränken, sind jedoch nicht dazu verpflichtet. Wir können dieses Recht von Fall zu Fall ausüben. Wir behalten uns das Recht vor, die Mengen aller von uns angebotenen Produkte oder Dienstleistungen zu begrenzen. Alle Beschreibungen von Produkten oder Produktkosten können jederzeit ohne Vorankündigung nach unserem alleinigen Ermessen geändert werden. Wir behalten uns das Recht vor, jedes Produkt oder jede Dienstleistung jederzeit einzustellen. Jedes Angebot für ein Produkt oder eine Dienstleistung auf dieser Website ist ungültig, wo gesetzlich verboten.
 
 Wir garantieren nicht, dass die Qualität von Produkten, Dienstleistungen, Informationen oder anderen Materialien, die Sie erwerben oder erhalten, Ihren Erwartungen entspricht, oder dass Fehler im Service behoben werden.
+
+## **Zahlung**
+
+Die von uns akzeptierte Zahlungsmethode ist Kreditkarte. Wir behalten uns das Recht vor, in Zukunft nach eigenem Ermessen andere Zahlungsmethoden hinzuzufügen. Wir nutzen Drittanbieter für die Zahlungsabwicklung, wie auf unserer Website angegeben.
+
+Wir behalten uns das Recht vor, jeden Kauf, den Sie bei uns tätigen, abzulehnen. Wir können nach eigenem Ermessen Mengenbeschränkungen pro Person, pro Haushalt oder pro Bestellung festlegen oder Bestellungen stornieren. Diese Beschränkungen können Bestellungen umfassen, die unter demselben Kundenkonto, derselben Kreditkarte und/oder Bestellungen, die dieselbe Rechnungsadresse verwenden, getätigt wurden. Im Falle von Änderungen oder Stornierungen einer Bestellung können wir versuchen, Sie über die bei der Bestellung angegebene E-Mail-Adresse und/oder Rechnungsadresse/Telefonnummer zu benachrichtigen.
+
+## **Verfügbarkeit**
+Wir behalten uns das Recht vor, die Bereitstellung unserer Produkte oder Dienstleistungen auf jede Person, geografische Region oder Gerichtsbarkeit zu beschränken, sind jedoch nicht dazu verpflichtet. Wir können dieses Recht im Einzelfall ausüben. Wir behalten uns das Recht vor, die Mengen aller Produkte oder Dienstleistungen, die wir anbieten, zu beschränken. Alle Beschreibungen von Produkten oder Preisangaben können jederzeit ohne Vorankündigung geändert werden, nach unserem Ermessen. Wir behalten uns das Recht vor, jedes Produkt oder jede Dienstleistung jederzeit einzustellen. Jedes Angebot für ein Produkt oder eine Dienstleistung auf dieser Website ist ungültig, wo es verboten ist.
+
+Wir übernehmen keine Garantie dafür, dass die Qualität von Produkten, Dienstleistungen, Informationen oder anderem Material, das Sie kaufen oder erhalten, Ihren Erwartungen entspricht oder dass Fehler im Service korrigiert werden.
+
+${company} hat insbesondere das Recht, den Zugang zur Website zu sperren, wenn:
+
+* Es Anzeichen dafür gibt, dass die Anmeldedaten des Kunden missbraucht wurden oder werden, oder dass die Anmeldedaten an einen unbefugten Dritten weitergegeben wurden oder werden, oder dass die Anmeldedaten von mehr als einer Person verwendet werden;
+* Es Anzeichen dafür gibt, dass Dritte anderweitig Zugang zur IT-Infrastruktur erhalten haben, die dem Kunden zur Verfügung gestellt wurde;
+Es Anzeichen dafür gibt, dass der Inhalt des Kunden gegen geltende Gesetze und/oder diese Vereinbarung verstößt;
+* Eine Sperrung oder Löschung aus technischen Gründen erforderlich ist;
+* Eine Verpflichtung besteht, den Zugang zu sperren oder den Inhalt oder das Produkt des Kunden gemäß geltendem Recht oder durch gerichtliche oder behördliche Anordnung zu löschen;
+* Der Kunde die Zahlung der vereinbarten Gebühr um mehr als zwei Wochen verzögert;
+* Der Kunde falsche oder ungültige Kontaktdaten angegeben hat und eine Kommunikation zwischen ${company} und dem Kunden nicht mehr möglich ist;
+* Der Kunde falsche Zahlungsdaten angegeben hat und die regelmäßige Erfüllung der Verpflichtungen nicht gewährleistet ist.
 
 ## Rückgaberichtlinie
 
@@ -80,13 +109,12 @@ Sie erklären sich damit einverstanden, dass Sie aktuelle, vollständige und gen
 
 ## Optionale Tools
 
-Wir können Ihnen Zugang zu Tools von Drittanbietern gewähren, über die wir weder die Überwachung noch die Kontrolle noch den Input haben.
+Wir können Ihnen Zugriff auf Tools von Drittanbietern gewähren, über die wir weder überwachen noch Kontrolle oder Einfluss haben. Sie erkennen an und stimmen zu, dass wir den Zugang zu solchen Tools "wie besehen" und "wie verfügbar" ohne jegliche Gewährleistung, Vertretung oder Bedingung jeglicher Art und ohne jegliche Billigung bereitstellen. Wir haften nicht für Ansprüche, die sich aus Ihrer Nutzung optionaler Tools von Drittanbietern ergeben oder damit zusammenhängen.
 
-Sie erkennen an und stimmen zu, dass wir den Zugang zu solchen Tools "wie besehen" und "wie verfügbar" ohne jegliche Garantien, Darstellungen oder Bedingungen jeglicher Art und ohne jegliche Billigung gewähren. Wir haften in keiner Weise für Ihre Nutzung optionaler Tools von Drittanbietern.
+Jegliche Nutzung von Ihnen optionaler Tools, die durch die Website angeboten werden, erfolgt ausschließlich auf Ihr eigenes Risiko und nach eigenem Ermessen, und Sie sollten sicherstellen, dass Sie mit den Bedingungen, zu denen Tools von den jeweiligen Drittanbietern bereitgestellt werden, vertraut sind und diese akzeptieren.
 
-Die Nutzung von optionalen Tools, die über die Website angeboten werden, erfolgt vollständig auf Ihr eigenes Risiko und Ihre eigene Diskretion, und Sie sollten sicherstellen, dass Sie mit den Bedingungen vertraut sind und diesen zustimmen, unter denen Tools von den jeweiligen Drittanbieter(n) bereitgestellt werden.
+Wir können in Zukunft auch neue Dienstleistungen und/oder Funktionen über die Website anbieten (einschließlich der Freigabe neuer Tools und Ressourcen). Solche neuen Funktionen und/oder Dienstleistungen unterliegen ebenfalls diesen Nutzungsbedingungen.
 
-Wir können auch in Zukunft neue Dienste und/oder Funktionen über die Website anbieten (einschließlich der Veröffentlichung neuer Tools und Ressourcen). Solche neuen Funktionen und/oder Dienste unterliegen ebenfalls diesen AGB.
 
 ## Links zu Drittanbietern
 
@@ -96,13 +124,6 @@ Links zu Drittanbieter-Websites auf dieser Website können Sie auf Websites von 
 
 Wir haften nicht für Schäden oder Verluste, die im Zusammenhang mit dem Kauf oder der Nutzung von Waren, Dienstleistungen, Ressourcen, Inhalten oder anderen Transaktionen stehen, die im Zusammenhang mit Websites von Drittanbietern getätigt werden. Bitte überprüfen Sie sorgfältig die Richtlinien und Praktiken von Drittanbietern und stellen Sie sicher, dass Sie sie verstehen, bevor Sie eine Transaktion eingehen. Beschwerden, Ansprüche, Bedenken oder Fragen zu Produkten von Drittanbietern sollten direkt an den Drittanbieter gerichtet werden.
 
-## Benutzerkommentare, Feedback und andere Einreichungen
-
-Wenn Sie auf unsere Anfrage bestimmte spezifische Einreichungen (zum Beispiel Wettbewerbsbeiträge) senden oder ohne eine Anfrage von uns kreative Ideen, Vorschläge, Angebote, Pläne oder andere Materialien, ob online, per E-Mail, per Post oder auf andere Weise (zusammen "Kommentare"), stimmen Sie zu, dass wir jederzeit ohne Einschränkung, bearbeiten, kopieren, veröffentlichen, verteilen, übersetzen und anderweitig in jedem Medium verwenden können alle Kommentare, die Sie uns übermitteln. Wir sind nicht verpflichtet (1) Kommentare vertraulich zu behandeln; (2) eine Entschädigung für Kommentare zu zahlen; oder (3) auf Kommentare zu antworten.
-
-Wir können, sind aber nicht verpflichtet, Inhalte zu überwachen, zu bearbeiten oder zu entfernen, die wir nach unserem alleinigen Ermessen für rechtswidrig, beleidigend, bedrohlich, verleumderisch, diffamierend, pornografisch, obszön oder anderweitig anstößig oder für Verstöße gegen das geistige Eigentum einer Partei oder diese AGB halten.
-
-Sie stimmen zu, dass Ihre Kommentare keine Rechte Dritter verletzen werden, einschließlich Urheberrechten, Markenrechten, Datenschutzrechten, Persönlichkeitsrechten oder anderen persönlichen oder Eigentumsrechten. Sie stimmen weiterhin zu, dass Ihre Kommentare keine diffamierenden oder anderweitig rechtswidrigen, missbräuchlichen oder obszönen Materialien enthalten oder keine Computerviren oder andere Schadsoftware enthalten, die die Funktionalität oder den Betrieb des Dienstes oder einer verwandten Website auf irgendeine Weise beeinträchtigen könnten. Sie dürfen keine falsche E-Mail-Adresse verwenden, sich nicht als jemand anderes ausgeben oder uns oder Dritte anderweitig über die Herkunft von Kommentaren täuschen. Sie sind allein verantwortlich für alle von Ihnen gemachten Kommentare und deren Richtigkeit. Wir übernehmen keine Verantwortung und übernehmen keine Haftung für Kommentare, die von Ihnen oder einem Dritten veröffentlicht werden.
 
 ## Persönliche Informationen
 
@@ -173,43 +194,6 @@ Sie dürfen nicht:
  - Material von ${website} und anderen Diensten von der ${company} verkaufen, vermieten oder unterlizenzieren
  - Material von ${website} und anderen Diensten von der ${company} vervielfältigen, duplizieren oder kopieren
  - Inhalte von ${website} und anderen Diensten von der ${company} umverteilen
-
-## Verlinkung auf unsere Inhalte
-
-Die folgenden Organisationen dürfen ohne vorherige schriftliche Genehmigung auf unsere Website verlinken:
-
- - Regierungsbehörden
- - Suchmaschinen
- - Nachrichtenorganisationen
- - Online-Verzeichnisvertriebe dürfen auf dieselbe Weise auf unsere Website verlinken, wie sie zu den Websites anderer aufgelisteter Unternehmen verlinken
-
-Diese Organisationen dürfen auf unsere Homepage, Publikationen oder andere Website-Informationen verlinken, solange der Link: (a) in keiner Weise irreführend ist; (b) keine falsche Sponsorship, Befürwortung oder Genehmigung der verlinkenden Partei und ihrer Produkte und/oder Dienstleistungen impliziert; und (c) in den Kontext der Website der verlinkenden Partei passt.
-
-Wir können andere Linkanfragen von den folgenden Arten von Organisationen prüfen und genehmigen:
-
- - allgemein bekannte Verbraucher- und/oder Geschäftsinformationsquellen
- - Dot.com-Community-Websites
- - Vereine oder andere Gruppen, die Wohltätigkeitsorganisationen vertreten
- - Online-Verzeichnisvertriebe
- - Internetportale
- - Buchhaltungs-, Rechts- und Beratungsunternehmen
- - Bildungseinrichtungen und Handelsverbände
-
-Wir werden Linkanfragen von diesen Organisationen genehmigen, wenn wir feststellen, dass: (a) der Link uns oder unseren akkreditierten Unternehmen nicht nachteilig erscheinen lässt; (b) die Organisation keine negativen Aufzeichnungen bei uns hat; (c) der Nutzen für uns aus der Sichtbarkeit des Hyperlinks den Mangel an die ${company} ausgleicht; und (d) der Link im Kontext allgemeiner Informationsressourcen steht.
-
-Diese Organisationen dürfen auf unsere Homepage verlinken, solange der Link: (a) in keiner Weise irreführend ist; (b) keine falsche Sponsorship, Befürwortung oder Genehmigung der verlinkenden Partei und ihrer Produkte oder Dienstleistungen impliziert; und (c) im Kontext der Website der verlinkenden Partei steht.
-
-Wenn Sie eine der in Absatz 2 aufgeführten Organisationen sind und daran interessiert sind, auf unsere Website zu verlinken, müssen Sie uns per E-Mail an [${email}](mailto:${email}) informieren. Bitte geben Sie Ihren Namen, den Namen Ihrer Organisation, Ihre Kontaktinformationen sowie die URL Ihrer Website an, eine Liste aller URLs, von denen aus Sie auf unsere Website verlinken möchten, und eine Liste der URLs auf unserer Website, auf die Sie verlinken möchten.
-
-Genehmigte Organisationen dürfen auf unsere Website wie folgt verlinken:
-
- - Durch Verwendung unseres Dienstnamens
- - Durch Verwendung der Uniform Resource Locator, die verlinkt wird
- - Durch Verwendung einer anderen Beschreibung unserer Website, die im Kontext und im Format des Inhalts auf der Website der verlinkenden Partei Sinn macht.
-
-Ohne vorherige Genehmigung und schriftliche Erlaubnis dürfen Sie keine Rahmen um unsere Webseiten erstellen.
-
-Die Verwendung des Logos oder anderer Grafiken von der ${company} für Verlinkungen ist ohne Markenlizenzvereinbarung nicht gestattet.
 
 ## Kontaktinformationen
 

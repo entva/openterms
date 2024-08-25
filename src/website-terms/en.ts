@@ -15,7 +15,7 @@ const generator = ({
 
 ## Overview
 
-This website is operated by ${company}. Throughout the site, the terms “we”, “us” and “our” refer to ${company}. ${company} offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
+This website is operated by ${company}. Throughout the site, the terms “we”, “us” and “our” (Platform, Service) refer to ${company}. ${company} offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
 
 By visiting our site${when(conditions?.shop, ' and/or purchasing something from us')}, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/or contributors of content.
 
@@ -41,13 +41,20 @@ You understand that your content${when(conditions?.shop, ' (not including credit
 
 You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service or any contact on the website through which the service is provided, without express written permission by us.
 
-The headings used in this agreement are included for convenience only and will not limit or otherwise affect these Terms.
+${when(conditions?.shop, 'The headings used in this agreement are included for convenience only and will not limit or otherwise affect these Terms.')}
 
 ## Accuracy, completeness and timeliness of information
 
 We are not responsible if information made available on this site or via our Service is not accurate, complete or current. The material on this site or obtained via our Services is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site or via our Services is at your own risk.
 
-This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
+The Client is solely responsible for the content and legality of the content they publish. The Client guarantees that they will consider all applicable legal standards, particularly personal rights, copyrights, and data protection laws, and that the Client will not use the Web-Site for any unlawful actions, including, but not limited to, creating, using, or distributing malware while using the Web-Site.
+
+${when(conditions?.shop, ` The Client must keep login data to the Web-Site in a safe place and may only provide it to authorized employees. The Client agrees to comply with all security measures, functional, and other limitations of the Web-Site. In particular, the Client is not allowed to remove, bypass, deactivate, or otherwise circumvent protective or authentication mechanisms or use the Web-Site for purposes other than those provided or expressly stated in this Agreement. Furthermore, the Client is not permitted to provide the Web-Site to third parties and/or go beyond the plan they have purchased.
+
+You agree to provide current, complete, and accurate purchase and account information for all purchases made on our website. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
+`.trim())}
+
+The Client must regularly and at their own risk create backups of their data, both on their local systems and on the Platform provided by ${company}.
 
 ## Modifications to the service
 
@@ -55,9 +62,21 @@ ${when(conditions?.shop, 'Prices for our products are subject to change without 
 
 We shall not be liable to you or to any third-party for any modification${when(conditions?.shop, ', price change')}, suspension or discontinuance of the Service.
 
+The average availability of the Platform is 99% per year. This excludes necessary scheduled maintenance work, as well as disruptions beyond our control; in particular, force majeure events. If possible, the Site will inform the Client of scheduled maintenance work in advance in text form (e.g., by email). However, we expressly reserve the right to carry out unscheduled maintenance work if necessary, especially if it is required for data security and operation.
+
+${company} may change the functionality of the Platform at any time to a reasonable extent for the Client. A change is particularly reasonable if it becomes necessary for a valid reason—for example, due to failures in the services provided by subcontractors or for security reasons—and the operating performance defined in the service description is essentially maintained, as well as our core obligations.
+
 ${when(conditions?.shop, `
 
 ## Products or services
+
+To fully utilize our services, you need to register. Registration is done by completing an online form with various details, including the company/professional enterprise's email address and setting a password.
+
+Your provision of personal information is governed by our Privacy Policy.
+
+Operation and maintenance of the Platform are our responsibility. The Client is not entitled to claim specific positioning or specific functions of the Platform or the Client's Products.
+
+We do not guarantee that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations or that any errors in the Service will be corrected.
 
 Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.
 
@@ -65,11 +84,31 @@ We reserve the right, but are not obligated, to limit the sales of our products 
 
 We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
-## Return Policy
+##. **Payment**
+The payment method we accept is a credit card. We may add other payment methods in the future at our discretion. We use third-party payment providers to process payments as stated in the relevant section of our website.
 
-We generally do not offer refunds for our digital services. Due to the preparation work involved before the service is delivered, once a service is purchased, it is considered consumed, and no refund will be provided.
+We reserve the right to refuse any purchase you make with us. We may, at our discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed under the same customer account, the same credit card, and/or orders that use the same billing address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the email and/or billing address/phone number provided at the time the order was made.
 
-Customers are required to initiate cancellations through our designated cancellation process outlined in the booking confirmation email or by contacting us directly via email: ${email}. Please provide relevant details and adhere to the specified timelines for eligibility.
+## **Availability**
+We reserve the right, but are not obligated, to limit the provision of our products or Services to any person, geographic region, or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services we offer. All descriptions of products or product pricing are subject to change at any time without notice, at our discretion. We reserve the right to discontinue any product or service at any time. Any offer for any product or service made on this site is void where prohibited.
+
+${company}, in particular, has the right to block access to the site if:
+
+* There are signs that the Client's login data has been or will be misused or that the login data has been or will be transferred to an unauthorized third party, or that the login data is used by more than one individual;
+* There are signs that third parties have otherwise gained access to the IT infrastructure provided by the Client;
+* There are signs that the Client's Content violates applicable laws and/or this Agreement;
+* Blocking or deletion is necessary for technical reasons;
+* There is an obligation to block access or delete Client Content or Product in accordance with applicable laws or by court or official order;
+* The Client delays payment of the agreed fee by more than two weeks;
+* The Client has provided incorrect or invalid contact details, and communication between ${company} and the Client is no longer possible;
+* The Client has provided incorrect payment details, and the regular fulfillment of obligations is not guaranteed.
+
+
+## Refund Policy
+
+We generally do not offer refunds for our digital services. Due to the preparation work involved before the service is delivered, once a service is purchased, it is considered consumed, and no refund will be provided. The service is considered used as soon as you make payment.
+
+Customers are required to initiate subscription cancellations through our designated cancellation process outlined in the booking confirmation email or by contacting us directly via email: ${email}. Please provide relevant details and adhere to the specified timelines for eligibility.
 
 ## Accuracy of billing and account information
 
@@ -78,7 +117,7 @@ We reserve the right to refuse any order you place with us. We may, in our sole 
 You agree to provide current, complete and accurate purchase and account information for all purchases made on our website. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
 `.trim())}
 
-## Optional tools
+## Additional tools
 
 We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
 
@@ -95,14 +134,6 @@ Certain content, products and services available via our Service may include mat
 Third-party links on this site may direct you to third-party websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties.
 
 We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
-
-## User comments, feedback and other submissions
-
-If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.
-
-We may, but have no obligation to, monitor, edit or remove content that we determine in our sole discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party’s intellectual property or these Terms of Service.
-
-You agree that your comments will not violate any right of any third-party, including copyright, trademark, privacy, personality or other personal or proprietary right. You further agree that your comments will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any computer virus or other malware that could in any way affect the operation of the Service or any related website. You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third-parties as to the origin of any comments. You are solely responsible for any comments you make and their accuracy. We take no responsibility and assume no liability for any comments posted by you or any third-party.
 
 ## Personal information
 
@@ -172,42 +203,6 @@ You must not:
  - Sell, rent or sub-license material from ${website} and other ${company}’s services
  - Reproduce, duplicate or copy material from ${website} and other ${company}’s services
  - Redistribute content from ${website} and other ${company}’s services
-
-## Hyperlinking to our content
-The following organizations may link to our Website without prior written approval:
-
- - Government agencies
- - Search engines
- - News organizations
- - Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses
-
-These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.
-
-We may consider and approve other link requests from the following types of organizations:
-
- - commonly-known consumer and/or business information sources
- - dot.com community sites
- - associations or other groups representing charities
- - online directory distributors
- - internet portals
- - accounting, law and consulting firms
- - educational institutions and trade associations
-
-We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of ${company}; and (d) the link is in the context of general resource information.
-
-These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.
-
-If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to [${email}](mailto:${email}). Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link.
-
-Approved organizations may hyperlink to our Website as follows:
-
- - By use of our service name
- - By use of the uniform resource locator being linked to
- - By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.
-
-Without prior approval and written permission, you may not create frames around our Webpages.
-
-No use of ${company}’s logo or other artwork will be allowed for linking absent a trademark license agreement.
 
 ## Contact information
 

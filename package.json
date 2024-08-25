@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "entva/openterms",
   "bugs": "https://github.com/entva/openterms/issues",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "type": "module",
   "keywords": [
     "legal",
@@ -36,9 +36,9 @@
     "test": "TZ='GMT' mocha \"./{,!(node_modules)/**}/*.test.js\""
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7",
-    "@babel/plugin-transform-runtime": "^7.24.7",
-    "@babel/preset-env": "^7.24.7",
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.25.4",
+    "@babel/preset-env": "^7.25.4",
     "@babel/preset-typescript": "^7.24.7",
     "@babel/register": "^7.23.7",
     "@entva/browserslist-config": "^1.0.0",
@@ -48,10 +48,10 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "eslint": "^8.57.0",
     "eslint-config-entva-typescript-base": "^1.0.0",
-    "rollup": "^4.18.0",
+    "rollup": "^4.21.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "tslib": "^2.6.3",
-    "typescript": "^5.5.3"
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
   }
 }
