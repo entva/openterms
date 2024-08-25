@@ -35,9 +35,9 @@ ${when(conditions?.shop, 'Wenn wir in dieser Datenschutzerklärung von „persö
 ## Wie verwenden wir Ihre persönlichen Daten?
 
 ${when(conditions?.shop, `
-Wir verwenden die Bestellinformationen, die wir im Allgemeinen sammeln, um Bestellungen, die über die Website getätigt werden, zu erfüllen (einschließlich der Verarbeitung Ihrer Zahlungsinformationen, der Organisation des Versands und der Bereitstellung von Rechnungen und/oder Auftragsbestätigungen). Darüber hinaus verwenden wir diese Bestellinformationen, um:
+Wir verwenden die Bestellinformationen, die wir im Allgemeinen sammeln, um Bestellungen, die über die Website getätigt werden, zu erfüllen (einschließlich der Verarbeitung Ihrer Zahlungsinformationen, der Organisation, der Bereitstellung von Rechnungen und/oder Auftragsbestätigungen). Darüber hinaus verwenden wir diese Bestellinformationen, um:
  - Mit Ihnen zu kommunizieren;
- - Unsere Bestellungen auf potenzielle Risiken oder Betrug zu überprüfen; und
+ - Unsere Bestellungen auf potenzielle Risiken oder Betrug zu überprüfen;
  - Wenn es im Einklang mit den Präferenzen steht, die Sie mit uns geteilt haben, Ihnen Informationen oder Werbung in Bezug auf unsere Produkte oder Dienstleistungen bereitzustellen.
 `)}
 Wir verwenden die gesammelten Geräteinformationen, um uns bei der Überprüfung auf potenzielle Risiken und Betrug zu helfen (insbesondere Ihre IP-Adresse) und allgemeiner, um unsere Website zu verbessern und zu optimieren (zum Beispiel durch Erstellen von Analysen darüber, wie unsere Benutzer auf der Website surfen und mit ihr interagieren, und um den Erfolg unserer Marketing- und Werbekampagnen zu bewerten).

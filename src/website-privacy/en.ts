@@ -34,9 +34,9 @@ ${when(conditions?.shop, 'When we talk about “Personal Information” in this 
 ## How do we use your Personal Information?
 
 ${when(conditions?.shop, `
-We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing you with invoices and/or order confirmations). Additionally, we use this Order Information to:
+We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for providing you with invoices and/or order confirmations). Additionally, we use this Order Information to:
  - Communicate with you;
- - Screen our orders for potential risk or fraud; and
+ - Screen our orders for potential risk or fraud;
  - When in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.
 `)}
 We use the Device Information that we collect to help us screen for potential risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our users browse and interact with the Site, and to assess the success of our marketing and advertising campaigns).
