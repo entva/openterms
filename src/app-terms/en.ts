@@ -25,7 +25,7 @@ Any new features or tools which are added to the current site shall also be subj
 
 ## Service terms
 
-${when(conditions?.minAge, ' By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.')}
+By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
 
 You may not use our products or services for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).
 
@@ -52,7 +52,7 @@ The Client is solely responsible for the content and legality of the content the
 ${when(conditions?.shop, ` The Client must keep login data to the Web-Site in a safe place and may only provide it to authorized employees. The Client agrees to comply with all security measures, functional, and other limitations of the Web-Site. In particular, the Client is not allowed to remove, bypass, deactivate, or otherwise circumvent protective or authentication mechanisms or use the Web-Site for purposes other than those provided or expressly stated in this Agreement. Furthermore, the Client is not permitted to provide the Web-Site to third parties and/or go beyond the plan they have purchased.
 
 You agree to provide current, complete, and accurate purchase and account information for all purchases made on our App. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
-')}
+`.trim())}
 
 The Client must regularly and at their own risk create backups of their data, both on their local systems and on the Platform provided by ${company}.
 
@@ -71,7 +71,7 @@ ${when(conditions?.shop, `
 
 ## Products or services
 
-To fully utilize our services, you need to register. Registration is done by completing an online form with various details, including the company/professional enterprise's email address and setting a password. 
+To fully utilize our services, you need to register. Registration is done by completing an online form with various details, including the company/professional enterprise's email address and setting a password.
 
 Your provision of personal information is governed by our Privacy Policy.
 
@@ -85,23 +85,23 @@ We reserve the right, but are not obligated, to limit the sales of our products 
 
 We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
-##. **Payment**  
+##. **Payment**
 The payment method we accept is a credit card. We may add other payment methods in the future at our discretion. We use third-party payment providers to process payments as stated in the relevant section of our App.
 
 We reserve the right to refuse any purchase you make with us. We may, at our discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed under the same customer account, the same credit card, and/or orders that use the same billing address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the email and/or billing address/phone number provided at the time the order was made.
 
-## **Availability**  
+## **Availability**
 We reserve the right, but are not obligated, to limit the provision of our products or Services to any person, geographic region, or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services we offer. All descriptions of products or product pricing are subject to change at any time without notice, at our discretion. We reserve the right to discontinue any product or service at any time. Any offer for any product or service made on this site is void where prohibited.
 
 ${company}, in particular, has the right to block access to the site if:
 
-* There are signs that the Client's login data has been or will be misused or that the login data has been or will be transferred to an unauthorized third party, or that the login data is used by more than one individual;  
-* There are signs that third parties have otherwise gained access to the IT infrastructure provided by the Client;  
-* There are signs that the Client's Content violates applicable laws and/or this Agreement;  
-* Blocking or deletion is necessary for technical reasons;  
-* There is an obligation to block access or delete Client Content or Product in accordance with applicable laws or by court or official order;  
-* The Client delays payment of the agreed fee by more than two weeks;  
-* The Client has provided incorrect or invalid contact details, and communication between ${company} and the Client is no longer possible;  
+* There are signs that the Client's login data has been or will be misused or that the login data has been or will be transferred to an unauthorized third party, or that the login data is used by more than one individual;
+* There are signs that third parties have otherwise gained access to the IT infrastructure provided by the Client;
+* There are signs that the Client's Content violates applicable laws and/or this Agreement;
+* Blocking or deletion is necessary for technical reasons;
+* There is an obligation to block access or delete Client Content or Product in accordance with applicable laws or by court or official order;
+* The Client delays payment of the agreed fee by more than two weeks;
+* The Client has provided incorrect or invalid contact details, and communication between ${company} and the Client is no longer possible;
 * The Client has provided incorrect payment details, and the regular fulfillment of obligations is not guaranteed.
 
 

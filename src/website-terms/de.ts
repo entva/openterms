@@ -25,10 +25,10 @@ Alle neuen Funktionen oder Tools, die der aktuellen Website hinzugefügt werden,
 
 ## Servicebedingungen
 
-${when(conditions?.minAge, ' Durch die Zustimmung zu diesen AGB erklären Sie, dass Sie mindestens das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben oder dass Sie das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben und uns Ihre Zustimmung gegeben haben, damit Minderjährige in Ihrem Haushalt diese Website nutzen können.')} 
+Durch die Zustimmung zu diesen AGB erklären Sie, dass Sie mindestens das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben oder dass Sie das Alter der Volljährigkeit in Ihrem Bundesland oder Ihrer Provinz erreicht haben und uns Ihre Zustimmung gegeben haben, damit Minderjährige in Ihrem Haushalt diese Website nutzen können.
 
-Sie dürfen unsere Produkte oder Dienstleistungen nicht für illegale oder nicht autorisierte Zwecke verwenden, und Sie dürfen bei der Nutzung des Dienstes keine Gesetze in Ihrer Gerichtsbarkeit verletzen (einschließlich, aber nicht beschränkt auf Urheberrechtsgesetze).  
-Sie dürfen keine schädliche Software oder zerstörerischen Code übertragen.  
+Sie dürfen unsere Produkte oder Dienstleistungen nicht für illegale oder nicht autorisierte Zwecke verwenden, und Sie dürfen bei der Nutzung des Dienstes keine Gesetze in Ihrer Gerichtsbarkeit verletzen (einschließlich, aber nicht beschränkt auf Urheberrechtsgesetze).
+Sie dürfen keine schädliche Software oder zerstörerischen Code übertragen.
 Ein Verstoß gegen eine der Bedingungen führt zur sofortigen Kündigung Ihrer Dienste ohne Rückerstattung.
 
 ## Allgemeine Bedingungen
@@ -45,12 +45,12 @@ Wir sind nicht verantwortlich, wenn die auf dieser Website oder durch unsere Die
 
 Der Kunde ist allein verantwortlich für den Inhalt und die Rechtmäßigkeit des Inhalts, den er veröffentlicht. Der Kunde garantiert, dass er alle anwendbaren rechtlichen Standards, insbesondere Persönlichkeitsrechte, Urheberrechte und Datenschutzgesetze, berücksichtigt und die Plattform nicht für rechtswidrige Handlungen verwendet, einschließlich, aber nicht beschränkt auf die Erstellung, Nutzung oder Verbreitung von Schadsoftware bei der Nutzung der Plattform.
 
-D${when(conditions?.shop, ` er Kunde muss seine Anmeldedaten für die Plattform an einem sicheren Ort aufbewahren und darf sie nur autorisierten Mitarbeitern zur Verfügung stellen. Der Kunde verpflichtet sich, alle Sicherheitsmaßnahmen, funktionalen und sonstigen Beschränkungen der Plattform einzuhalten. Insbesondere darf der Kunde keine Schutz- oder Authentifizierungsmechanismen entfernen, umgehen, deaktivieren oder anderweitig umgehen oder die Plattform für andere Zwecke als die in dieser Vereinbarung vorgesehenen oder ausdrücklich festgelegten verwenden. Darüber hinaus ist es dem Kunden nicht gestattet, die Plattform Dritten zur Verfügung zu stellen und/oder über den erworbenen Tarifplan hinauszugehen.
+${when(conditions?.shop, `Der Kunde muss seine Anmeldedaten für die Plattform an einem sicheren Ort aufbewahren und darf sie nur autorisierten Mitarbeitern zur Verfügung stellen. Der Kunde verpflichtet sich, alle Sicherheitsmaßnahmen, funktionalen und sonstigen Beschränkungen der Plattform einzuhalten. Insbesondere darf der Kunde keine Schutz- oder Authentifizierungsmechanismen entfernen, umgehen, deaktivieren oder anderweitig umgehen oder die Plattform für andere Zwecke als die in dieser Vereinbarung vorgesehenen oder ausdrücklich festgelegten verwenden. Darüber hinaus ist es dem Kunden nicht gestattet, die Plattform Dritten zur Verfügung zu stellen und/oder über den erworbenen Tarifplan hinauszugehen.
 
-Sie erklären sich damit einverstanden, aktuelle, vollständige und genaue Kauf- und Kontoinformationen für alle auf unserer Website getätigten Käufe bereitzustellen. Sie erklären sich damit einverstanden, Ihr Konto und andere Informationen, einschließlich Ihrer E-Mail-Adresse und Kreditkartennummern sowie Ablaufdaten, unverzüglich zu aktualisieren, damit wir Ihre Transaktionen abschließen und Sie bei Bedarf kontaktieren können.')}
+Sie erklären sich damit einverstanden, aktuelle, vollständige und genaue Kauf- und Kontoinformationen für alle auf unserer Website getätigten Käufe bereitzustellen. Sie erklären sich damit einverstanden, Ihr Konto und andere Informationen, einschließlich Ihrer E-Mail-Adresse und Kreditkartennummern sowie Ablaufdaten, unverzüglich zu aktualisieren, damit wir Ihre Transaktionen abschließen und Sie bei Bedarf kontaktieren können.
+`).trim()}
 
 Der Kunde muss regelmäßig und auf eigenes Risiko Sicherungskopien seiner Daten erstellen, sowohl auf seinen lokalen Systemen als auch auf der von ${company} bereitgestellten Plattform.
-
 
 ## Änderungen am Service
 
@@ -66,19 +66,19 @@ ${when(conditions?.shop, `
 
 ## Produkte oder Dienstleistungen
 
-Bestimmte Produkte oder Dienstleistungen können ausschließlich online über die Website erhältlich sein. 
+Bestimmte Produkte oder Dienstleistungen können ausschließlich online über die Website erhältlich sein.
 
 Wir behalten uns das Recht vor, den Verkauf unserer Produkte oder Dienstleistungen auf jede Person, geografische Region oder Gerichtsbarkeit zu beschränken, sind jedoch nicht dazu verpflichtet. Wir können dieses Recht von Fall zu Fall ausüben. Wir behalten uns das Recht vor, die Mengen aller von uns angebotenen Produkte oder Dienstleistungen zu begrenzen. Alle Beschreibungen von Produkten oder Produktkosten können jederzeit ohne Vorankündigung nach unserem alleinigen Ermessen geändert werden. Wir behalten uns das Recht vor, jedes Produkt oder jede Dienstleistung jederzeit einzustellen. Jedes Angebot für ein Produkt oder eine Dienstleistung auf dieser Website ist ungültig, wo gesetzlich verboten.
 
 Wir garantieren nicht, dass die Qualität von Produkten, Dienstleistungen, Informationen oder anderen Materialien, die Sie erwerben oder erhalten, Ihren Erwartungen entspricht, oder dass Fehler im Service behoben werden.
 
-## **Zahlung**  
+## **Zahlung**
 
 Die von uns akzeptierte Zahlungsmethode ist Kreditkarte. Wir behalten uns das Recht vor, in Zukunft nach eigenem Ermessen andere Zahlungsmethoden hinzuzufügen. Wir nutzen Drittanbieter für die Zahlungsabwicklung, wie auf unserer Website angegeben.
 
 Wir behalten uns das Recht vor, jeden Kauf, den Sie bei uns tätigen, abzulehnen. Wir können nach eigenem Ermessen Mengenbeschränkungen pro Person, pro Haushalt oder pro Bestellung festlegen oder Bestellungen stornieren. Diese Beschränkungen können Bestellungen umfassen, die unter demselben Kundenkonto, derselben Kreditkarte und/oder Bestellungen, die dieselbe Rechnungsadresse verwenden, getätigt wurden. Im Falle von Änderungen oder Stornierungen einer Bestellung können wir versuchen, Sie über die bei der Bestellung angegebene E-Mail-Adresse und/oder Rechnungsadresse/Telefonnummer zu benachrichtigen.
 
-## **Verfügbarkeit**  
+## **Verfügbarkeit**
 Wir behalten uns das Recht vor, die Bereitstellung unserer Produkte oder Dienstleistungen auf jede Person, geografische Region oder Gerichtsbarkeit zu beschränken, sind jedoch nicht dazu verpflichtet. Wir können dieses Recht im Einzelfall ausüben. Wir behalten uns das Recht vor, die Mengen aller Produkte oder Dienstleistungen, die wir anbieten, zu beschränken. Alle Beschreibungen von Produkten oder Preisangaben können jederzeit ohne Vorankündigung geändert werden, nach unserem Ermessen. Wir behalten uns das Recht vor, jedes Produkt oder jede Dienstleistung jederzeit einzustellen. Jedes Angebot für ein Produkt oder eine Dienstleistung auf dieser Website ist ungültig, wo es verboten ist.
 
 Wir übernehmen keine Garantie dafür, dass die Qualität von Produkten, Dienstleistungen, Informationen oder anderem Material, das Sie kaufen oder erhalten, Ihren Erwartungen entspricht oder dass Fehler im Service korrigiert werden.
@@ -194,8 +194,6 @@ Sie dürfen nicht:
  - Material von ${website} und anderen Diensten von der ${company} verkaufen, vermieten oder unterlizenzieren
  - Material von ${website} und anderen Diensten von der ${company} vervielfältigen, duplizieren oder kopieren
  - Inhalte von ${website} und anderen Diensten von der ${company} umverteilen
-
-
 
 ## Kontaktinformationen
 

@@ -13,7 +13,7 @@ const generator = ({
 # Datenschutzerklärung
 *Version ${version}${when(updated, ` vom ${updated}`)}.*
 
-Diese Datenschutzerklärung beschreibt, wie Ihre persönlichen Daten gesammelt, verwendet und weitergegeben werden, wenn Sie [${appName}](${appName}) (die App) besuchen${when(conditions?.shop, ' oder einen Kauf tätigen')}.
+Diese Datenschutzerklärung beschreibt, wie Ihre persönlichen Daten gesammelt, verwendet und weitergegeben werden, wenn Sie ${appName} (die App) besuchen${when(conditions?.shop, ' oder einen Kauf tätigen')}.
 
 ## Persönliche Daten, die wir sammeln
 

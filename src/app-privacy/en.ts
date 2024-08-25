@@ -13,7 +13,7 @@ const generator = ({
 # Privacy Policy
 *Version ${version}${when(updated, `, effective date: ${updated}`)}.*
 
-This Privacy Policy describes how your Personal Information is collected, used, and shared when you visit${when(conditions?.shop, ' or make a purchase from')} [${AppName}](${appName}) (the “Site”).
+This Privacy Policy describes how your Personal Information is collected, used, and shared when you visit${when(conditions?.shop, ' or make a purchase from')} ${appName} (the “Site”).
 
 ## Personal information we collect
 
