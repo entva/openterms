@@ -1,6 +1,6 @@
 export type Options = {
   email: string,
-  address: string,
+  address?: string,
   phone?: string,
   vat?: string,
 };

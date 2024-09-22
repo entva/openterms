@@ -26,7 +26,7 @@ Auf dieser Website verwendeten Bilder sind lizenzfrei, eine Quellenangabe ist ni
 ## Anbieter der Webseite
 
 - **E-Mail**: [${email}](mailto:${email})
-- **Post:** ${address}
+${when(phone, `- **Post:** ${address}`)}
 ${when(phone, `- **Telefon**: ${phone}`)}
 ${when(vat, `- **USt.-Id**: ${vat}`)}
 `.trim();

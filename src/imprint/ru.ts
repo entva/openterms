@@ -26,7 +26,7 @@ const generator = ({
 ## Контактная информация
 
 - **E-Mail**: [${email}](mailto:${email})
-- **Почта:** ${address}
+${when(address, `- **Почта:** ${address}`)}
 ${when(phone, `- **Телефон**: ${phone}`)}
 ${when(vat, `- **ИНН**: ${vat}`)}
 `.trim();

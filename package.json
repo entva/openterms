@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "entva/openterms",
   "bugs": "https://github.com/entva/openterms/issues",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "type": "module",
   "keywords": [
     "legal",
@@ -48,10 +48,10 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "eslint": "^8.57.0",
     "eslint-config-entva-typescript-base": "^1.0.0",
-    "rollup": "^4.21.0",
-    "rollup-plugin-delete": "^2.0.0",
+    "rollup": "^4.22.4",
+    "rollup-plugin-delete": "^2.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.7.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   }
 }

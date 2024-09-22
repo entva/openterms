@@ -5,7 +5,7 @@ import de from './de';
 import ru from './ru';
 
 const locales = { en, de, ru };
-const schema = { email: 'string', address: 'string' };
+const schema = { email: 'string' };
 
 export default (locale: keyof typeof locales, options: Options) => (
   run<Options>(locales[locale], schema, options)
