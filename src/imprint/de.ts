@@ -6,6 +6,7 @@ const generator = ({
   address,
   phone,
   vat,
+  commercialRegister,
 }: Options) => `
 # Impressum
 
@@ -29,6 +30,9 @@ Auf dieser Website verwendeten Bilder sind lizenzfrei, eine Quellenangabe ist ni
 ${when(phone, `- **Post:** ${address}`)}
 ${when(phone, `- **Telefon**: ${phone}`)}
 ${when(vat, `- **USt.-Id**: ${vat}`)}
+${when(commercialRegister, `
+## Angaben zum Unternehmen
+${commercialRegister}`)}
 `.trim();
 
 export default generator;

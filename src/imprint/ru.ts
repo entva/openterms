@@ -6,6 +6,7 @@ const generator = ({
   address,
   phone,
   vat,
+  commercialRegister,
 }: Options) => `
 # Импрессум
 
@@ -29,6 +30,9 @@ const generator = ({
 ${when(address, `- **Почта:** ${address}`)}
 ${when(phone, `- **Телефон**: ${phone}`)}
 ${when(vat, `- **ИНН**: ${vat}`)}
+${when(commercialRegister, `
+## Информация о компании
+${commercialRegister}`)}
 `.trim();
 
 export default generator;

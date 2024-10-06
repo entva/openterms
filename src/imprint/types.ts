@@ -3,4 +3,5 @@ export type Options = {
   address?: string,
   phone?: string,
   vat?: string,
+  commercialRegister?: string,
 };
