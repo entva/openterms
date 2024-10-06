@@ -31,7 +31,7 @@ ${when(phone, `- **Post:** ${address}`)}
 ${when(phone, `- **Telefon**: ${phone}`)}
 ${when(vat, `- **USt.-Id**: ${vat}`)}
 ${when(commercialRegister, `
-## Angaben zum Unternehmen
+### Angaben zum Unternehmen
 ${commercialRegister}`)}
 `.trim();
 

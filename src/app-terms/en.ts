@@ -85,12 +85,12 @@ We reserve the right, but are not obligated, to limit the sales of our products 
 
 We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
-##. **Payment**
+## Payment
 The payment method we accept is a credit card. We may add other payment methods in the future at our discretion. We use third-party payment providers to process payments as stated in the relevant section of our App.
 
 We reserve the right to refuse any purchase you make with us. We may, at our discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed under the same customer account, the same credit card, and/or orders that use the same billing address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the email and/or billing address/phone number provided at the time the order was made.
 
-## **Availability**
+## Availability
 We reserve the right, but are not obligated, to limit the provision of our products or Services to any person, geographic region, or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services we offer. All descriptions of products or product pricing are subject to change at any time without notice, at our discretion. We reserve the right to discontinue any product or service at any time. Any offer for any product or service made on this site is void where prohibited.
 
 ${company}, in particular, has the right to block access to the site if:

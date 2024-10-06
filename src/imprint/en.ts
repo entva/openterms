@@ -32,7 +32,7 @@ ${when(address, `- **Mail:** ${address}`)}
 ${when(phone, `- **Phone**: ${phone}`)}
 ${when(vat, `- **VAT ID**: ${vat}`)}
 ${when(commercialRegister, `
-## Company information
+### Company information
 ${commercialRegister}`)}
 `.trim();
 

@@ -16,12 +16,21 @@ export const validate = <T=Record<string, unknown>>(schema: Partial<T>, options:
 
 type GeneratorFn<T> = (options: T) => string;
 
+const REGEX_NEWLINES = /\n{2,}/g;
+const REGEX_SPACES = / {2,}/g;
+const normalize = (content: string) => (
+  content
+    .replace(REGEX_NEWLINES, '\n\n')
+    .replace(REGEX_SPACES, ' ')
+);
+
 export const run = <T=Record<string, unknown>>(
   generator: GeneratorFn<T>,
   schema: Partial<T>,
   options: T,
 ) => {
   const errors = validate<T>(schema, options);
-  if (!errors.length) return generator(options);
-  throw new Error(`Following options are invalid or missing: ${errors.join(', ')}`);
+  if (errors.length) throw new Error(`Following options are invalid or missing: ${errors.join(', ')}`);
+  const content = generator(options);
+  return normalize(content);
 };

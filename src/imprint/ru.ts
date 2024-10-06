@@ -31,7 +31,7 @@ ${when(address, `- **Почта:** ${address}`)}
 ${when(phone, `- **Телефон**: ${phone}`)}
 ${when(vat, `- **ИНН**: ${vat}`)}
 ${when(commercialRegister, `
-## Информация о компании
+### Информация о компании
 ${commercialRegister}`)}
 `.trim();
 
