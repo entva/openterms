@@ -31,7 +31,7 @@ The images used on this website are royalty-free, a source reference is not requ
 ${when(address, `- **Mail:** ${address}`)}
 ${when(phone, `- **Phone**: ${phone}`)}
 ${when(vat, `- **VAT ID**: ${vat}`)}
-${when(commercialRegister, `
+${when(commercialRegister?.trim(), `
 ### Company information
 ${commercialRegister}`)}
 `.trim();

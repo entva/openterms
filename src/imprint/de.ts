@@ -27,10 +27,10 @@ Auf dieser Website verwendeten Bilder sind lizenzfrei, eine Quellenangabe ist ni
 ## Anbieter der Webseite
 
 - **E-Mail**: [${email}](mailto:${email})
-${when(phone, `- **Post:** ${address}`)}
+${when(address, `- **Post:** ${address}`)}
 ${when(phone, `- **Telefon**: ${phone}`)}
 ${when(vat, `- **USt.-Id**: ${vat}`)}
-${when(commercialRegister, `
+${when(commercialRegister?.trim(), `
 ### Angaben zum Unternehmen
 ${commercialRegister}`)}
 `.trim();

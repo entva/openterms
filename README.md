@@ -91,9 +91,10 @@ export type Options = {
 ```typescript
 export type Options = {
   email: string,
-  address: string,
+  address?: string,
   phone?: string,
   vat?: string,
+  commercialRegister?: string,
 };
 ```
 

@@ -30,7 +30,7 @@ const generator = ({
 ${when(address, `- **Почта:** ${address}`)}
 ${when(phone, `- **Телефон**: ${phone}`)}
 ${when(vat, `- **ИНН**: ${vat}`)}
-${when(commercialRegister, `
+${when(commercialRegister?.trim(), `
 ### Информация о компании
 ${commercialRegister}`)}
 `.trim();
