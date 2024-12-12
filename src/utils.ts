@@ -38,3 +38,7 @@ export const run = <T=Record<string, unknown>>(
   const content = generator(options);
   return normalize(content);
 };
+
+export const linkify = (text: string) => (
+  text.replace(/(https?:\/\/([\da-z.-]+\.[a-z.]{2,6}|[\d.]+)\S*)/g, '[$2]($1)')
+);

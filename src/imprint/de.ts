@@ -1,4 +1,4 @@
-import { when } from '../utils';
+import { when, linkify } from '../utils';
 import type { Options } from './types';
 
 const generator = ({
@@ -40,7 +40,7 @@ ${when(social?.length, `
 
 ## Dieses Impressum gilt auch für die folgenden Social Media Kanäle
 
-${social!.map((item) => item.trim().length && `- ${item.trim()}`).filter(Boolean).join('\n')}`)}
+${social!.map((item) => item.trim().length && `- ${linkify(item.trim())}`).filter(Boolean).join('\n')}`)}
 ${when(editor?.trim(), `
 
 ### Redaktionell verantwortlich
