@@ -7,6 +7,9 @@ const generator = ({
   phone,
   vat,
   commercialRegister,
+  social,
+  editor,
+  video,
 }: Options) => `
 # Imprint
 
@@ -34,6 +37,21 @@ ${when(vat, `- **VAT ID**: ${vat}`)}
 ${when(commercialRegister?.trim(), `
 ### Company information
 ${commercialRegister}`)}
+${when(social?.length, `
+
+## This imprint also applies to the following social media channels
+
+${social!.map((item) => item.trim().length && `- ${item.trim()}`).filter(Boolean).join('\n')}`)}
+${when(editor?.trim(), `
+
+### Editorially responsible
+
+${editor}`)}
+${when(video?.trim(), `
+
+### Supervisory authority for video content
+
+${video}`)}
 `.trim();
 
 export default generator;

@@ -7,6 +7,9 @@ const generator = ({
   phone,
   vat,
   commercialRegister,
+  social,
+  editor,
+  video,
 }: Options) => `
 # Impressum
 
@@ -33,6 +36,21 @@ ${when(vat, `- **USt.-Id**: ${vat}`)}
 ${when(commercialRegister?.trim(), `
 ### Angaben zum Unternehmen
 ${commercialRegister}`)}
+${when(social?.length, `
+
+## Dieses Impressum gilt auch für die folgenden Social Media Kanäle
+
+${social!.map((item) => item.trim().length && `- ${item.trim()}`).filter(Boolean).join('\n')}`)}
+${when(editor?.trim(), `
+
+### Redaktionell verantwortlich
+
+${editor}`)}
+${when(video?.trim(), `
+
+### Aufsichtsbehörde für Videoinhalte
+
+${video}`)}
 `.trim();
 
 export default generator;

@@ -7,6 +7,9 @@ const generator = ({
   phone,
   vat,
   commercialRegister,
+  social,
+  editor,
+  video,
 }: Options) => `
 # Импрессум
 
@@ -33,6 +36,21 @@ ${when(vat, `- **ИНН**: ${vat}`)}
 ${when(commercialRegister?.trim(), `
 ### Информация о компании
 ${commercialRegister}`)}
+${when(social?.length, `
+
+## Это уведомление также распространяется на следующие каналы в социальных сетях
+
+${social!.map((item) => item.trim().length && `- ${item.trim()}`).filter(Boolean).join('\n')}`)}
+${when(editor?.trim(), `
+
+### Редакционно ответственный
+
+${editor}`)}
+${when(video?.trim(), `
+
+### Надзорный орган для видеоконтента
+
+${video}`)}
 `.trim();
 
 export default generator;
