@@ -41,7 +41,7 @@ ${when(social?.length, `
 
 ## This imprint also applies to the following social media channels
 
-${social!.map((item) => item.trim().length && `- ${linkify(item.trim())}`).filter(Boolean).join('\n')}`)}
+${social?.map((item) => item.trim().length && `- ${linkify(item.trim())}`).filter(Boolean).join('\n')}`)}
 ${when(editor?.trim(), `
 
 ### Editorially responsible
