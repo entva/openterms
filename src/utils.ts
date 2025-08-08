@@ -1,3 +1,7 @@
+import packageJson from '../package.json';
+
+export const version = packageJson.version;
+
 export const when = (condition: unknown, value: string) => (condition ? value : '');
 
 export const validate = <T=Record<string, unknown>>(schema: Partial<T>, options: T): string[] => (

@@ -1,17 +1,15 @@
-import { when } from '../utils';
+import { when, version } from '../utils';
 import type { Options } from './types';
 
 const generator = ({
   company,
   email,
   minimumAge,
-  updated,
-  version = '1.0',
   appName,
   conditions,
 }: Options) => `
 # Политика конфиденциальности
-*Версия ${version}${when(updated, `, дата вступления в силу: ${updated}`)}.*
+*Версия ${version}.*
 
 Эта Политика конфиденциальности описывает, как собирается, используется и передается ваша персональная информация, когда вы посещаете${when(conditions?.shop, ' или совершаете покупку в')} ${appName} (далее "Приложение").
 

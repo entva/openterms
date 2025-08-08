@@ -1,17 +1,15 @@
-import { when } from '../utils';
+import { when, version } from '../utils';
 import type { Options } from './types';
 
 const generator = ({
   company,
   email,
   minimumAge,
-  updated,
-  version = '1.0',
   appName,
   conditions,
 }: Options) => `
 # Privacy Policy
-*Version ${version}${when(updated, `, effective date: ${updated}`)}.*
+*Version ${version}.*
 
 This Privacy Policy describes how your Personal Information is collected, used, and shared when you visit${when(conditions?.shop, ' or make a purchase from')} ${appName} (the “Site”).
 

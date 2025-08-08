@@ -1,17 +1,15 @@
-import { when } from '../utils';
+import { when, version } from '../utils';
 import type { Options } from './types';
 
 const generator = ({
   company,
   email,
-  updated,
-  version = '1.0',
   website,
   country,
   conditions,
 }: Options) => `
 # Terms of Service
-*Version ${version}${when(updated, `, effective date: ${updated}`)}.*
+*Version ${version}.*
 
 ## Overview
 

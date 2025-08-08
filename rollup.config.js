@@ -3,6 +3,7 @@ import typescript from '@rollup/plugin-typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
 import del from 'rollup-plugin-delete';
 
 const extensions = ['.js', '.ts'];
@@ -12,6 +13,7 @@ export default [
     plugins: [
       del({ targets: 'lib/*' }),
       peerDepsExternal(),
+      json(),
       typescript({ tsconfig: './tsconfig.build.json' }),
       babel({ exclude: /node_modules/, babelHelpers: 'runtime' }),
       resolve({ browser: true, extensions }),

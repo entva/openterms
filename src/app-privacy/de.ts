@@ -1,17 +1,15 @@
-import { when } from '../utils';
+import { when, version } from '../utils';
 import type { Options } from './types';
 
 const generator = ({
   company,
   email,
   minimumAge,
-  updated,
-  version = '1.0',
   appName,
   conditions,
 }: Options) => `
 # Datenschutzerklärung
-*Version ${version}${when(updated, ` vom ${updated}`)}.*
+*Version ${version}.*
 
 Diese Datenschutzerklärung beschreibt, wie Ihre persönlichen Daten gesammelt, verwendet und weitergegeben werden, wenn Sie ${appName} (die App) besuchen${when(conditions?.shop, ' oder einen Kauf tätigen')}.
 
