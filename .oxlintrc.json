@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "extends": ["./node_modules/@entva/oxlint-config/index.json"],
+  "env": { "builtin": true, "browser": true, "node": true },
+  "ignorePatterns": [
+    "**/.*",
+    "**/node_modules/**",
+    "**/public/**",
+    "**/coverage/**",
+    "**/lib/**",
+    "**/build/**"
+  ]
+}
